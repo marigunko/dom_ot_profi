@@ -28,9 +28,20 @@
     }
 }
 
-.link-page,
-.link-page:active,
-.link-page:hover,
-.link-page:focus {
-    color: #1A9F29;
+.description--pages-bg {
+    background-image: url("../img/background-description-bg-mobile.png");
+    background-size: cover;
+    background-position: top 30% center;
+    background-repeat: no-repeat;
+    padding-bottom: 50px;   
+}
+
+@media (min-width: 992px) {
+    .description--pages {
+        background-image: url("../img/background-description-bg.png");
+        background-size: 100% auto;
+        background-position: top 30% center;
+        background-repeat: no-repeat;   
+        padding-bottom: 50px;   
+    }
 }

@@ -44,18 +44,19 @@
 
 @media (min-width: 992px) {
     .description__img--block {
+        display: block;
         position: absolute;
-        bottom: 80px;
+        bottom: 65px;
         left: 0;
-        width: 300px;
-        height: 150px;
+        width: 329px;
+        height: 209px;
     }
 }
 
 @media (min-width: 1200px) {
     .description__img--block {
         position: absolute;
-        bottom: -100px;
+        bottom: -90px;
         left: 0;
         width: 400px;
         height: 250px;

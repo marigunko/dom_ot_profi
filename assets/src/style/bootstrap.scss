@@ -45,8 +45,22 @@
     color: #212529;
     background: #FFC900;
     border: none;
-    -webkit-box-shadow: 0px 5px 25px rgba(247, 206, 52, 0.7);
-            box-shadow: 0px 5px 25px rgba(247, 206, 52, 0.7);
+    -webkit-box-shadow: 0px 4px 25px rgba(247, 206, 52, 0.7), inset 0px 0px 20px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 4px 25px rgba(247, 206, 52, 0.7), inset 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.btn-outline-warning:hover {
+    color: #212529;
+    background: #F7CE34;
+    border: 1px solid #F7CE34;
+}
+
+.btn-outline-warning:active {
+    color: #212529;
+    background: #F7CE34;
+    border: none;
+    -webkit-box-shadow: inset 0px 0px 15px rgba(0, 0, 0, 0.1);
+            box-shadow: inset 0px 0px 15px rgba(0, 0, 0, 0.1);
 }
 
 .dropdown-menu {
@@ -220,7 +234,7 @@ label {
 .breadcrumb {
     display: flex;
     flex-wrap: wrap;
-    padding: 3rem 0;
+    padding: 3rem 0 10;
     margin-bottom: 0;
     list-style: none;
     background-color: transparent;
