@@ -49,3 +49,32 @@
         top: 2rem;
     }
 }
+
+.project__card--text {
+    display:flex;
+    position:relative;
+    justify-content: space-between;
+}
+
+.project__card--text:before {
+    content:'';    
+    height: 1px;
+    top:calc(50% - 1px);
+    position:absolute;
+    width: 100%;
+    background:#cecece;
+} 
+
+.project__card--text p {
+    margin:0 5px;
+    position:relative;
+    background:#fff;
+}
+
+.project__card--text p:first-child {
+    margin-left:0;
+}
+  
+.project__card--text p:last-child {
+    margin-right:0;
+}

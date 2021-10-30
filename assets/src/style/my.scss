@@ -33,9 +33,13 @@ a:focus {
     text-decoration: none;
 }
 
-.green:active,
-.green:hover,
-.green:focus {
+.green-link {
+    color: #1A9F29;
+}
+
+.green-link:active,
+.green-link:hover,
+.green-link:focus {
     color: #1A9F29;
     text-decoration: underline;
 }
