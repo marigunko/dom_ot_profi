@@ -155,3 +155,11 @@ gulp.task('default', gulp.series(
     'build',
     gulp.parallel('webserver','watch')      
 ));
+
+var htmlImport = require('gulp-html-import');
+
+gulp.task('import', function () {
+    gulp.src('./demo/index.html')
+        .pipe(htmlImport('./demo/components/'))
+        .pipe(gulp.dest('dist')); 
+})
