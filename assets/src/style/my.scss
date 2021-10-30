@@ -99,3 +99,15 @@ ul {
     border-radius: 8px 8px 0 0;
     margin: 0 12px;
 }
+
+
+
+.input__wrapper {
+    position: relative;
+}
+   
+.input__file {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+}

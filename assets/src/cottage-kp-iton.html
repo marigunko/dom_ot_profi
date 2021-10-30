@@ -640,13 +640,14 @@
                                         <button type="submit" class="order__card--btn btn btn-warning btn-lg text-center font-mm-12">Заказать проект</button>
                                     </div>
                                     <div class="col-5 col-md-6">
-                                        <button type="file" class="btn">
-                                            <div class="d-flex flex-column flex-md-row align-items-center">
-                                                <img src="img/add-file.svg" width="20" height="auto" alt="">
-                                                <p class="d-md-none font-mm-10 light-grey mb-0">Прикрепить файл</p>
-                                                <p class="d-none d-md-block font-mm-10 light-grey ml-3 mb-0">Прикрепить файл с </br>эскизом/примером</p>
-                                            </div>
-                                        </button>
+                                        <div class="input__wrapper">
+                                            <input name="file" type="file" name="file" id="input__file" class="input input__file" multiple>
+                                            <label for="input__file" class="d-flex">
+                                               <img src="img/add-file.svg" width="25" height="auto" alt="">
+                                               <p class="d-md-none font-mm-10 light-grey align-self-center mb-0">Прикрепить файл</p>
+                                                <p class="d-none d-md-block font-mm-10 light-grey align-self-center ml-3 mb-0">Прикрепить файл с </br>эскизом/примером</p>
+                                            </label>
+                                        </div>
                                     </div>
                                 </div>
                                 <p class="font-mm-10 text-center"> Нажимая на кнопку вы даёте согласие на <a href="#" class="green-link">обработку персональных данных</a></p>
@@ -672,13 +673,14 @@
                         </div>
                     </div>
                     <div class="qa-form__card row">
-                        <div class="qa__img col-12 col-md-6 col-lg-5 order-md-2 pl-md-0">
+                        <div class="qa__img col-12 col-md-5 order-md-2 pl-md-0">
                             <picture>
-                                <source srcset="img/form-img-desktop.png" width="100%" height="auto" alt="" media="(min-width: 768px)">
+                                <source srcset="img/form-img-desktop.png" width="100%" height="auto" alt="" media="(min-width: 992px)">
+                                <source srcset="img/form-img-desktop.png" width="150%" height="auto" alt="" media="(min-width: 768px)">
                                 <img src="img/form-img-mobile.png" width="100%" height="auto" alt="">
                             </picture> 
                         </div>
-                        <div class="col-12 col-md-6 col-lg-7 order-md-1 pr-md-0">
+                        <div class="col-12 col-md-7 order-md-1 pr-md-0">
                             <div class="d-none d-lg-block">
                                 <div class="row my-4">
                                     <div class="col-1 pr-0">
@@ -715,16 +717,17 @@
                                                     <textarea class="form-control" rows="3" placeholder="Ваш вопрос"></textarea>
                                                 </div>
                                                 <div class="row align-items-center mb-3">
-                                                    <div class="col-7 col-md-6">
+                                                    <div class="col-7 col-md-7">
                                                         <button type="submit" class="order__card--btn btn btn-warning btn-lg text-center font-mm-12">Задать вопрос</button>
                                                     </div>
-                                                    <div class="col-5 col-md-6 pl-lg-0">
-                                                        <button type="file" class="btn">
-                                                            <div class="d-flex flex-column flex-md-row align-items-center">
-                                                                <img src="img/add-file.svg" width="20" height="auto" alt="">
-                                                                <p class="font-mm-10 light-grey ml-3 mb-0">Прикрепить файл</p>
-                                                            </div>
-                                                        </button>
+                                                    <div class="col-5 col-md-5 pl-lg-0">
+                                                        <div class="input__wrapper">
+                                                            <input name="file" type="file" name="file" id="input__file" class="input input__file" multiple>
+                                                            <label for="input__file" class="d-flex">
+                                                               <img src="img/add-file.svg" width="25" height="auto" alt="">
+                                                               <p class="font-mm-10 light-grey align-self-center ml-3 mb-0">Прикрепить файл</p>
+                                                            </label>
+                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>

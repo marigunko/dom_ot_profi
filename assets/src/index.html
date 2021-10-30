@@ -1886,8 +1886,10 @@
 
             <section class="order">
                 <div class="container-fluid">
-                    <p class="font-mr-30 text-center mb-4"><i>или</i></p>
                     <div class="row my-4">
+                        <div class="col-12 col-md-2">
+                            <p class="font-mr-30 text-center mb-4"><i>или</i></p>
+                        </div>
                         <div class="col-1 pr-0">
                             <picture>
                                 <source srcset="img/lane-green-1.png" width="6" height="90"  media="(min-width: 1200px)">
@@ -1895,7 +1897,7 @@
                                 <img src="img/lane-green-1.png" width="3" height="45" alt="">
                             </picture>  
                         </div>
-                        <div class="col-11 pl-0">
+                        <div class="col-11 col-md-9 col-lg-6 col-xl-5 pl-0">
                             <h2 class="section__title mb-4">Вы можете заказать <br><span class="green">индивидуальный проект</span></h2>   
                             <p class="font-mm-16"><span class="green">Заполните форму </span>и мы расскажем вам, как вы можете получить готовый проект или разработку индивидуального проекта нашей командой архитекторов ― <span class="green">совершенно бесплатно!</span></p>
                             <ul>
@@ -1905,40 +1907,41 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="order__card">
-                        <div class="card__top--yellow"></div>
-                        <div class="card">
-                            <div class="card-body pb-0">
-                                <form>
-                                    <div class="form-group">
-                                        <input type="name" class="form-control" placeholder="Имя">
+                </div>
+                <div class="order__card">
+                    <div class="card__top--yellow"></div>
+                    <div class="card">
+                        <div class="card-body pb-0">
+                            <form>
+                                <div class="form-group">
+                                    <input type="name" class="form-control" placeholder="Имя">
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" class="form-control" placeholder="Телефон">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="E-mail">
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" rows="3" placeholder="Ваши пожелания"></textarea>
+                                </div>
+                                <div class="row align-items-center mb-3">
+                                    <div class="col-7 col-md-6">
+                                        <button type="submit" class="order__card--btn btn btn-warning btn-lg text-center font-mm-12">Заказать проект</button>
                                     </div>
-                                    <div class="form-group">
-                                        <input type="tel" class="form-control" placeholder="Телефон">
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="email" class="form-control" placeholder="E-mail">
-                                    </div>
-                                    <div class="form-group">
-                                        <textarea class="form-control" rows="3" placeholder="Ваши пожелания"></textarea>
-                                    </div>
-                                    <div class="row align-items-center mb-3">
-                                        <div class="col-7 col-md-6">
-                                            <button type="submit" class="order__card--btn btn btn-warning btn-lg text-center font-mm-12">Заказать проект</button>
+                                    <div class="col-5 col-md-6">
+                                        <div class="input__wrapper">
+                                            <input name="file" type="file" name="file" id="input__file" class="input input__file" multiple>
+                                            <label for="input__file" class="d-flex">
+                                               <img src="img/add-file.svg" width="25" height="auto" alt="">
+                                               <p class="d-md-none font-mm-10 light-grey align-self-center mb-0">Прикрепить файл</p>
+                                                <p class="d-none d-md-block font-mm-10 light-grey align-self-center ml-3 mb-0">Прикрепить файл с </br>эскизом/примером</p>
+                                            </label>
                                         </div>
-                                        <div class="col-5 col-md-6">
-                                            <button type="file" class="btn">
-                                                <div class="d-flex flex-column flex-md-row align-items-center">
-                                                    <img src="img/add-file.svg" width="20" height="auto" alt="">
-                                                    <p class="d-md-none font-mm-10 light-grey mb-0">Прикрепить файл</p>
-                                                    <p class="d-none d-md-block font-mm-10 light-grey ml-3 mb-0">Прикрепить файл с </br>эскизом/примером</p>
-                                                </div>
-                                            </button>
-                                        </div>
                                     </div>
-                                    <p class="font-mm-10 text-center"> Нажимая на кнопку вы даёте согласие на <a href="#" class="green-link">обработку персональных данных</a></p>
-                                </form>  
-                            </div>
+                                </div>
+                                <p class="font-mm-10 text-center"> Нажимая на кнопку вы даёте согласие на <a href="#" class="green-link">обработку персональных данных</a></p>
+                            </form>  
                         </div>
                     </div>
                 </div>
@@ -2683,13 +2686,14 @@
                         </div>
                     </div>
                     <div class="qa-form__card row">
-                        <div class="qa__img col-12 col-md-6 col-lg-5 order-md-2 pl-md-0">
+                        <div class="qa__img col-12 col-md-5 order-md-2 pl-md-0">
                             <picture>
-                                <source srcset="img/form-img-desktop.png" width="100%" height="auto" alt="" media="(min-width: 768px)">
+                                <source srcset="img/form-img-desktop.png" width="100%" height="auto" alt="" media="(min-width: 992px)">
+                                <source srcset="img/form-img-desktop.png" width="150%" height="auto" alt="" media="(min-width: 768px)">
                                 <img src="img/form-img-mobile.png" width="100%" height="auto" alt="">
                             </picture> 
                         </div>
-                        <div class="col-12 col-md-6 col-lg-7 order-md-1 pr-md-0">
+                        <div class="col-12 col-md-7 order-md-1 pr-md-0">
                             <div class="d-none d-lg-block">
                                 <div class="row my-4">
                                     <div class="col-1 pr-0">
@@ -2726,16 +2730,17 @@
                                                     <textarea class="form-control" rows="3" placeholder="Ваш вопрос"></textarea>
                                                 </div>
                                                 <div class="row align-items-center mb-3">
-                                                    <div class="col-7 col-md-6">
+                                                    <div class="col-7 col-md-7">
                                                         <button type="submit" class="order__card--btn btn btn-warning btn-lg text-center font-mm-12">Задать вопрос</button>
                                                     </div>
-                                                    <div class="col-5 col-md-6 pl-lg-0">
-                                                        <button type="file" class="btn">
-                                                            <div class="d-flex flex-column flex-md-row align-items-center">
-                                                                <img src="img/add-file.svg" width="20" height="auto" alt="">
-                                                                <p class="font-mm-10 light-grey ml-3 mb-0">Прикрепить файл</p>
-                                                            </div>
-                                                        </button>
+                                                    <div class="col-5 col-md-5 pl-lg-0">
+                                                        <div class="input__wrapper">
+                                                            <input name="file" type="file" name="file" id="input__file" class="input input__file" multiple>
+                                                            <label for="input__file" class="d-flex">
+                                                               <img src="img/add-file.svg" width="25" height="auto" alt="">
+                                                               <p class="font-mm-10 light-grey align-self-center ml-3 mb-0">Прикрепить файл</p>
+                                                            </label>
+                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
