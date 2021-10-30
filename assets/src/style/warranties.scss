@@ -1,0 +1,99 @@
+/*WARRANTIES*/
+
+.warranties {
+    background-image: url("../img/background-warranties-mobile.png");
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding-bottom: 50px;  
+    background-color: #FFFFFF; 
+    margin: auto;
+}
+
+@media (min-width: 768px) {
+    .warranties {
+        background-image: url("../img/background-warranties-tablet.png");
+        background-size: cover;
+        background-position: top center;
+        background-repeat: no-repeat;
+        padding-bottom: 50px;   
+    }
+}
+
+@media (min-width: 1200px) {
+    .warranties {
+        background-image: url("../img/background-warranties-desktop.png");
+        background-size: cover;
+        background-position: top center;
+        background-repeat: no-repeat;
+        padding-bottom: 50px;   
+    }
+}
+
+@media (min-width: 768px) {
+    .warranties__card {
+        width: fit-content;
+    }
+
+    .warranties__card--1 {
+        position: relative;
+        top: 0;
+        left: 50%;
+    }
+
+    .warranties__card--2 {
+        position: relative;
+        top: 0;
+        left: 40%;
+    }
+
+    .warranties__card--3 {
+        position: relative;
+        top: 0;
+        left: 20%;
+    }
+
+    .warranties__card--4 {
+        position: relative;
+        top: 0;
+        left: 10%;
+    }
+
+    .warranties__card--5 {
+        position: relative;
+        top: 0;
+        left: 0;
+    }  
+}
+
+@media (min-width: 1200px) {
+    .warranties__card--1 {
+        position: relative;
+        top: -1rem;
+        left: 30%;
+    }
+
+    .warranties__card--2 {
+        position: relative;
+        top: 0;
+        left: 20%;
+    }
+
+    .warranties__card--3 {
+        position: relative;
+        top: 1rem;
+        left: 7%;
+    }
+
+    .warranties__card--4 {
+        position: relative;
+        top: 2rem;
+        left: 2%;
+    }
+
+    .warranties__card--5 {
+        position: relative;
+        top: 3rem;
+        left: -1%;
+    }  
+}

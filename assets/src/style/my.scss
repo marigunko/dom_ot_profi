@@ -1,0 +1,90 @@
+/*MAIN*/
+
+html {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: inherit;
+            box-sizing: inherit;
+}
+
+body {
+    min-width: 320px;
+    
+    color: #000000;
+    font-family: "Montserrat-Regular", "Roboto-Regular", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: left;
+    background-color: #F5F5F4;
+    overflow-x: hidden;
+}
+
+a:active,
+a:hover,
+a:focus {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+[type=button], [type=reset], [type=submit], button {
+    -webkit-appearance: none;
+}
+
+
+
+.common-background {
+    position: relative;
+    background-image: url("../img/background-common.png");
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;  
+    background-color: #FFFFFF; 
+    margin: auto;
+}
+
+@media (min-width: 768px) {
+    .common-background {
+        background-image: url("../img/background-common.png");
+        background-size: cover;
+        background-position: top center;
+        background-repeat: no-repeat;
+        padding-bottom: 100px;   
+    }
+}
+
+@media (min-width: 1200px) {
+    .common-background {
+        background-image: url("../img/background-common.png");
+        background-size: cover;
+        background-position: top center;
+        background-repeat: no-repeat;
+        padding-bottom: 100px;   
+    }
+}
+
+.card__btn {
+    position: relative;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background: #FFFFFF;
+}
+
+.card__top--yellow {
+    border-top: 12px solid #FFEFB2;
+    border-radius: 8px 8px 0 0;
+    margin: 0 12px;
+}

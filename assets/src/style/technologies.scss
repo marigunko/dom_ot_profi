@@ -1,0 +1,1209 @@
+/*TECHNOLOGIES*/
+
+.technologies {
+    background-color: #FFFFFF;
+}
+
+.technologies__form {
+    max-width: 900px;
+}
+
+.technologies__card--form {
+    width: 300px;
+    z-index: 2;
+}
+
+.technologies__card--body {
+    position: relative;
+    z-index: 2;
+}
+
+@media (min-width: 768px) {
+    .technologies__card--form {
+        width: 400px;
+    }
+}
+
+@media (min-width: 992px) {
+    .technologies__form--img-desktop {
+        position: absolute;
+        left: 2rem;
+        top: 4rem;
+        z-index: 1;
+    }
+
+    .technologies__form--img-block {
+        position: absolute;
+        right: 4rem;
+        top: 5rem;
+        z-index: 1;
+    }
+    
+    .technologies__card--form {
+        width: 400px;
+        z-index: 1;
+    }
+}
+
+@media (min-width: 1200px) {
+    .technologies__form {
+        max-width: 1000px;
+    }
+
+    .technologies__form--img {
+        width: 500px;
+        height: auto;
+    }
+
+    .technologies__form--img-block {
+        width: 500px;
+        height: auto;
+        right: -3rem;
+        top: 2rem;
+    }
+
+    .technologies__form--img-desktop {
+        position: absolute;
+        left: -6rem;
+        top: -5rem;
+    }
+    
+    .technologies__card--form {
+        width: 500px;
+    
+    }
+}
+
+@media (min-width: 1800px) {
+    .technologies__form {
+        max-width: 1500px;
+    }
+
+    .technologies__form--img {
+        width: 500px;
+        height: auto;
+    }
+
+    .technologies__form--img-block {
+        right: 3rem;
+        top: 2rem;
+    }
+
+    .technologies__form--img-desktop {
+        position: absolute;
+        left: 2rem;
+        top: -7rem;
+    }
+    
+    .technologies__card--form {
+        width: 500px;
+    
+    }
+}
+
+.technologies__name--left {
+    font-family: "Roboto-Regular";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4px;
+    line-height: 4px;
+    text-align: right;
+}
+
+.technologies__name--right {
+    font-family: "Roboto-Regular";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4px;
+    line-height: 4px;
+    text-align: left;
+}
+
+@media (min-width: 768px) {
+    .technologies__name--left {
+        font-family: "Roboto-Regular";
+        font-weight: 400;
+        font-style: normal;
+        font-size: 10px;
+        line-height: 10px;
+        text-align: right;
+    }
+    
+    .technologies__name--right {
+        font-family: "Roboto-Regular";
+        font-weight: 400;
+        font-style: normal;
+        font-size: 10px;
+        line-height: 10px;
+        text-align: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .technologies__name--left {
+        font-family: "Roboto-Regular";
+        font-weight: 400;
+        font-style: normal;
+        font-size: 14px;
+        line-height: 14px;
+        text-align: right;
+    }
+    
+    .technologies__name--right {
+        font-family: "Roboto-Regular";
+        font-weight: 400;
+        font-style: normal;
+        font-size: 14px;
+        line-height: 14px;
+        text-align: left;
+    }
+}
+
+@media (min-width: 1800px) {
+    .technologies__name--left {
+        font-family: "Roboto-Regular";
+        font-weight: 400;
+        font-style: normal;
+        font-size: 18px;
+        line-height: 18px;
+        text-align: right;
+    }
+    
+    .technologies__name--right {
+        font-family: "Roboto-Regular";
+        font-weight: 400;
+        font-style: normal;
+        font-size: 18px;
+        line-height: 18px;
+        text-align: left;
+    }
+}
+
+.technologies__list {
+    max-width: 280px;
+    padding: auto;
+    margin: auto;
+}
+
+@media (min-width: 768px) {
+    .technologies__list {
+        max-width: 704px;
+        padding: auto;
+        margin: auto;
+    }
+}
+
+@media (min-width: 1200px) {
+    .technologies__list {
+        max-width: 998px;
+        padding: auto;
+        margin: auto;
+    }
+}
+
+@media (min-width: 1800px) {
+    .technologies__list {
+        max-width: 1298px;
+        padding: auto;
+        margin: auto;
+    }
+}
+
+.technologies__card--btn {
+    position: relative;
+    top: -1.15rem;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+@media (min-width: 768px) {
+    .technologies__card--btn {
+        display: none;
+    }
+}
+
+.technologies__item--1 {
+    margin-top: 0;
+}
+
+
+.technologies__item--2 {
+    margin-top: 0;
+}
+
+.technologies__item--3 {
+    margin-top: 2px;
+}
+
+.technologies__item--4 {
+    margin-top: 2px;
+}
+
+.technologies__item--5 {
+    margin-top: 4px;
+}
+
+.technologies__item--6 {
+    margin-top: 4px;
+}
+
+.technologies__item--7 {
+    margin-top: 6px;
+}
+
+.technologies__item--8 {
+    margin-top: 8px;
+}
+
+.technologies__item--9 {
+    margin-top: 3px;
+}
+
+.technologies__item--10 {
+    margin-top: 1px;
+}
+
+.technologies__item--11 {
+    margin-top: 6px;
+}
+
+.technologies__item--12 {
+    margin-top: 4px;
+}
+
+.technologies__item--13 {
+    margin-top: 1px;
+}
+
+.technologies__item--14 {
+    margin-top: 5px;
+}
+
+.technologies__item--15 {
+    margin-top: 0;
+}
+
+.technologies__item--16 {
+    margin-top: 5px;
+}
+
+.technologies__item--17 {
+    margin-top: 1px;
+}
+
+.technologies__item--18 {
+    margin-top: 2px;
+}
+
+.technologies__item--19 {
+    margin-top: -4px;
+}
+
+.technologies__item--20 {
+    margin-top: 5px;
+}
+
+.technologies__item--21 {
+    margin-top: 7px;
+}
+
+.technologies__item--22 {
+    margin-top: 8px;
+}
+
+.technologies__item--23 {
+    margin-top: 5px;
+}
+
+.technologies__item--24 {
+    margin-top: 5px;
+}
+
+.technologies__item--25 {
+    margin-top: 5px;
+}
+
+.technologies__item--26 {
+    margin-top: 5px;
+}
+
+.technologies__item--27 {
+    margin-top: 6px;
+}
+
+.technologies__item--28 {
+    margin-top: 0;
+}
+
+
+@media (min-width: 768px) {
+    .technologies__card {    
+        position: absolute;
+        display: none;
+        max-width: 20rem;
+        z-index: 1;
+    }
+
+    .technologies__item--1 {
+        margin-top: 13px;
+    }
+    
+    .technologies__block--1:active .technologies__card--1,
+    .technologies__block--1:hover .technologies__card--1,
+    .technologies__block--1:focus .technologies__card--1 {
+        display: block;
+    }
+
+    .technologies__arrow--1 {
+        transition: all 0.4s ease;
+    }
+
+    .technologies__block--1:active .technologies__arrow--1,
+    .technologies__block--1:hover .technologies__arrow--1,
+    .technologies__block--1:focus .technologies__arrow--1 {
+        content: "";
+        transform: rotate(-90deg);
+        transition: all 0.4s ease;
+    }
+
+    .technologies__item--2 {
+        margin-top: 28px;
+    }
+    
+    .technologies__block--2:active .technologies__card--2,
+    .technologies__block--2:hover .technologies__card--2,
+    .technologies__block--2:focus .technologies__card--2 {
+        display: block;
+    }
+
+    .technologies__arrow--2 {
+        transition: all 0.4s ease;
+    }
+
+    .technologies__block--2:active .technologies__arrow--2,
+    .technologies__block--2:hover .technologies__arrow--2,
+    .technologies__block--2:focus .technologies__arrow--2 {
+        content: "";
+        transform: rotate(-90deg);
+        transition: all 0.4s ease;
+    }
+
+    .technologies__item--3 {
+        margin-top: 32px;
+    }
+    
+    .technologies__block--3:active .technologies__card--3,
+    .technologies__block--3:hover .technologies__card--3,
+    .technologies__block--3:focus .technologies__card--3 {
+        display: block;
+    }
+
+    .technologies__arrow--3 {
+        transition: all 0.4s ease;
+    }
+
+    .technologies__block--3:active .technologies__arrow--3,
+    .technologies__block--3:hover .technologies__arrow--3,
+    .technologies__block--3:focus .technologies__arrow--3 {
+        content: "";
+        transform: rotate(-90deg);
+        transition: all 0.4s ease;
+    }
+
+    .technologies__item--4 {
+        margin-top: 32px;
+    }
+    
+    .technologies__block--4:active .technologies__card--4,
+    .technologies__block--4:hover .technologies__card--4,
+    .technologies__block--4:focus .technologies__card--4 {
+        display: block;
+    }
+
+    .technologies__arrow--4 {
+        transition: all 0.4s ease;
+    }
+
+    .technologies__block--4:active .technologies__arrow--4,
+    .technologies__block--4:hover .technologies__arrow--4,
+    .technologies__block--4:focus .technologies__arrow--4 {
+        content: "";
+        transform: rotate(-90deg);
+        transition: all 0.4s ease;
+    }
+
+    .technologies__item--5 {
+        margin-top: 36px;
+    }
+    
+    .technologies__block--5:active .technologies__card--5,
+    .technologies__block--5:hover .technologies__card--5,
+    .technologies__block--5:focus .technologies__card--5 {
+        display: block;
+    }
+
+    .technologies__arrow--5 {
+        transition: all 0.4s ease;
+    }
+
+    .technologies__block--5:active .technologies__arrow--5,
+    .technologies__block--5:hover .technologies__arrow--5,
+    .technologies__block--5:focus .technologies__arrow--5 {
+        content: "";
+        transform: rotate(-90deg);
+        transition: all 0.4s ease;
+    }
+
+    .technologies__item--6 {
+        margin-top: 35px;
+    }
+    
+    .technologies__block--6:active .technologies__card--6,
+    .technologies__block--6:hover .technologies__card--6,
+    .technologies__block--6:focus .technologies__card--6 {
+        display: block;
+    }
+
+    .technologies__arrow--6 {
+        transition: all 0.4s ease;
+    }
+
+    .technologies__block--6:active .technologies__arrow--6,
+    .technologies__block--6:hover .technologies__arrow--6,
+    .technologies__block--6:focus .technologies__arrow--6 {
+        content: "";
+        transform: rotate(-90deg);
+        transition: all 0.4s ease;
+    }
+
+    .technologies__item--7 {
+        margin-top: 37px;
+    }
+    
+    .technologies__block--7:active .technologies__card--7,
+    .technologies__block--7:hover .technologies__card--7,
+    .technologies__block--7:focus .technologies__card--7 {
+        display: block;
+    }
+
+    .technologies__arrow--7 {
+        transition: all 0.4s ease;
+    }
+
+    .technologies__block--7:active .technologies__arrow--7,
+    .technologies__block--7:hover .technologies__arrow--7,
+    .technologies__block--7:focus .technologies__arrow--7 {
+        content: "";
+        transform: rotate(-90deg);
+        transition: all 0.4s ease;
+    }
+
+    .technologies__item--8 {
+        margin-top: 40px;
+    }
+    
+    .technologies__block--8:active .technologies__card--8,
+    .technologies__block--8:hover .technologies__card--8,
+    .technologies__block--8:focus .technologies__card--8 {
+        display: block;
+    }
+
+    .technologies__arrow--8 {
+        transition: all 0.4s ease;
+    }
+
+    .technologies__block--8:active .technologies__arrow--8,
+    .technologies__block--8:hover .technologies__arrow--8,
+    .technologies__block--8:focus .technologies__arrow--8 {
+        content: "";
+        transform: rotate(-90deg);
+        transition: all 0.4s ease;
+    }
+
+    .technologies__item--9 {
+        margin-top: 32px;
+    }
+    
+    .technologies__block--9:active .technologies__card--9,
+    .technologies__block--9:hover .technologies__card--9,
+    .technologies__block--9:focus .technologies__card--9 {
+        display: block;
+    }
+
+    .technologies__arrow--9 {
+        transition: all 0.4s ease;
+    }
+
+    .technologies__block--9:active .technologies__arrow--9,
+    .technologies__block--9:hover .technologies__arrow--9,
+    .technologies__block--9:focus .technologies__arrow--9 {
+        content: "";
+        transform: rotate(-90deg);
+        transition: all 0.4s ease;
+    }
+
+    .technologies__item--10 {
+        margin-top: 29px;
+    }
+    
+    .technologies__block--10:active .technologies__card--10,
+    .technologies__block--10:hover .technologies__card--10,
+    .technologies__block--10:focus .technologies__card--10 {
+        display: block;
+    }
+
+    .technologies__arrow--10 {
+        transition: all 0.4s ease;
+    }
+
+    .technologies__block--10:active .technologies__arrow--10,
+    .technologies__block--10:hover .technologies__arrow--10,
+    .technologies__block--10:focus .technologies__arrow--10 {
+        content: "";
+        transform: rotate(-90deg);
+        transition: all 0.4s ease;
+    }
+
+    .technologies__item--11 {
+        margin-top: 43px;
+    }
+    
+    .technologies__block--11:active .technologies__card--11,
+    .technologies__block--11:hover .technologies__card--11,
+    .technologies__block--11:focus .technologies__card--11 {
+        display: block;
+    }
+
+    .technologies__arrow--11 {
+        transition: all 0.4s ease;
+    }
+
+    .technologies__block--11:active .technologies__arrow--11,
+    .technologies__block--11:hover .technologies__arrow--11,
+    .technologies__block--11:focus .technologies__arrow--11 {
+        content: "";
+        transform: rotate(-90deg);
+        transition: all 0.4s ease;
+    }
+
+    .technologies__item--12 {
+        margin-top: 35px;
+    }
+    
+    .technologies__block--12:active .technologies__card--12,
+    .technologies__block--12:hover .technologies__card--12,
+    .technologies__block--12:focus .technologies__card--12 {
+        display: block;
+    }
+
+    .technologies__arrow--12 {
+        transition: all 0.4s ease;
+    }
+
+    .technologies__block--12:active .technologies__arrow--12,
+    .technologies__block--12:hover .technologies__arrow--12,
+    .technologies__block--12:focus .technologies__arrow--12 {
+        content: "";
+        transform: rotate(-90deg);
+        transition: all 0.4s ease;
+    }
+
+    .technologies__item--13 {
+        margin-top: 31px;
+    }
+    
+    .technologies__block--13:active .technologies__card--13,
+    .technologies__block--13:hover .technologies__card--13,
+    .technologies__block--13:focus .technologies__card--13 {
+        display: block;
+    }
+
+    .technologies__arrow--13 {
+        transition: all 0.4s ease;
+    }
+
+    .technologies__block--13:active .technologies__arrow--13,
+    .technologies__block--13:hover .technologies__arrow--13,
+    .technologies__block--13:focus .technologies__arrow--13 {
+        content: "";
+        transform: rotate(-90deg);
+        transition: all 0.4s ease;
+    }
+
+    .technologies__item--14 {
+        margin-top: 39px;
+    }
+    
+    .technologies__block--14:active .technologies__card--14,
+    .technologies__block--14:hover .technologies__card--14,
+    .technologies__block--14:focus .technologies__card--14 {
+        display: block;
+    }
+
+    .technologies__arrow--14 {
+        transition: all 0.4s ease;
+    }
+
+    .technologies__block--14:active .technologies__arrow--14,
+    .technologies__block--14:hover .technologies__arrow--14,
+    .technologies__block--14:focus .technologies__arrow--14 {
+        content: "";
+        transform: rotate(-90deg);
+        transition: all 0.4s ease;
+    }
+
+    .technologies__item--15 {
+        margin-top: 13px;
+    }
+    
+    .technologies__block--15:active .technologies__card--15,
+    .technologies__block--15:hover .technologies__card--15,
+    .technologies__block--15:focus .technologies__card--15 {
+        display: block;
+    }
+
+    .technologies__arrow--15 {
+        transition: all 0.4s ease;
+    }
+
+    .technologies__block--15:active .technologies__arrow--15,
+    .technologies__block--15:hover .technologies__arrow--15,
+    .technologies__block--15:focus .technologies__arrow--15 {
+        content: "";
+        transform: rotate(90deg);
+        transition: all 0.4s ease;
+    }
+
+    .technologies__item--16 {
+        margin-top: 37px;
+    }
+    
+    .technologies__block--16:active .technologies__card--16,
+    .technologies__block--16:hover .technologies__card--16,
+    .technologies__block--16:focus .technologies__card--16 {
+        display: block;
+    }
+
+    .technologies__arrow--16 {
+        transition: all 0.4s ease;
+    }
+
+    .technologies__block--16:active .technologies__arrow--16,
+    .technologies__block--16:hover .technologies__arrow--16,
+    .technologies__block--16:focus .technologies__arrow--16 {
+        content: "";
+        transform: rotate(90deg);
+        transition: all 0.4s ease;
+    }
+
+    .technologies__item--17 {
+        margin-top: 31px;
+    }
+    
+    .technologies__block--17:active .technologies__card--17,
+    .technologies__block--17:hover .technologies__card--17,
+    .technologies__block--17:focus .technologies__card--17 {
+        display: block;
+    }
+
+    .technologies__arrow--17 {
+        transition: all 0.4s ease;
+    }
+
+    .technologies__block--17:active .technologies__arrow--17,
+    .technologies__block--17:hover .technologies__arrow--17,
+    .technologies__block--17:focus .technologies__arrow--17 {
+        content: "";
+        transform: rotate(90deg);
+        transition: all 0.4s ease;
+    }
+
+    .technologies__item--18 {
+        margin-top: 30px;
+    }
+    
+    .technologies__block--18:active .technologies__card--18,
+    .technologies__block--18:hover .technologies__card--18,
+    .technologies__block--18:focus .technologies__card--18 {
+        display: block;
+    }
+
+    .technologies__arrow--18 {
+        transition: all 0.4s ease;
+    }
+
+    .technologies__block--18:active .technologies__arrow--18,
+    .technologies__block--18:hover .technologies__arrow--18,
+    .technologies__block--18:focus .technologies__arrow--18 {
+        content: "";
+        transform: rotate(90deg);
+        transition: all 0.4s ease;
+    }
+
+    .technologies__item--19 {
+        margin-top: 17px;
+    }
+    
+    .technologies__block--19:active .technologies__card--19,
+    .technologies__block--19:hover .technologies__card--19,
+    .technologies__block--19:focus .technologies__card--19 {
+        display: block;
+    }
+
+    .technologies__arrow--19 {
+        transition: all 0.4s ease;
+    }
+
+    .technologies__block--19:active .technologies__arrow--19,
+    .technologies__block--19:hover .technologies__arrow--19,
+    .technologies__block--19:focus .technologies__arrow--19 {
+        content: "";
+        transform: rotate(90deg);
+        transition: all 0.4s ease;
+    }
+
+    .technologies__item--20 {
+        margin-top: 37px;
+    }
+    
+    .technologies__block--20:active .technologies__card--20,
+    .technologies__block--20:hover .technologies__card--20,
+    .technologies__block--20:focus .technologies__card--20 {
+        display: block;
+    }
+
+    .technologies__arrow--20 {
+        transition: all 0.4s ease;
+    }
+
+    .technologies__block--20:active .technologies__arrow--20,
+    .technologies__block--20:hover .technologies__arrow--20,
+    .technologies__block--20:focus .technologies__arrow--20 {
+        content: "";
+        transform: rotate(90deg);
+        transition: all 0.4s ease;
+    }
+
+    .technologies__item--21 {
+        margin-top: 42px;
+    }
+    
+    .technologies__block--21:active .technologies__card--21,
+    .technologies__block--21:hover .technologies__card--21,
+    .technologies__block--21:focus .technologies__card--21 {
+        display: block;
+    }
+
+    .technologies__arrow--11 {
+        transition: all 0.4s ease;
+    }
+
+    .technologies__block--21:active .technologies__arrow--21,
+    .technologies__block--21:hover .technologies__arrow--21,
+    .technologies__block--21:focus .technologies__arrow--21 {
+        content: "";
+        transform: rotate(90deg);
+        transition: all 0.4s ease;
+    }
+
+    .technologies__item--22 {
+        margin-top: 46px;
+    }
+    
+    .technologies__block--22:active .technologies__card--22,
+    .technologies__block--22:hover .technologies__card--22,
+    .technologies__block--22:focus .technologies__card--22 {
+        display: block;
+    }
+
+    .technologies__arrow--22 {
+        transition: all 0.4s ease;
+    }
+
+    .technologies__block--22:active .technologies__arrow--22,
+    .technologies__block--22:hover .technologies__arrow--22,
+    .technologies__block--22:focus .technologies__arrow--22 {
+        content: "";
+        transform: rotate(90deg);
+        transition: all 0.4s ease;
+    }
+
+    .technologies__item--23 {
+        margin-top: 32px;
+    }
+    
+    .technologies__block--23:active .technologies__card--23,
+    .technologies__block--23:hover .technologies__card--23,
+    .technologies__block--23:focus .technologies__card--23 {
+        display: block;
+    }
+
+    .technologies__arrow--23 {
+        transition: all 0.4s ease;
+    }
+
+    .technologies__block--23:active .technologies__arrow--23,
+    .technologies__block--23:hover .technologies__arrow--23,
+    .technologies__block--23:focus .technologies__arrow--23 {
+        content: "";
+        transform: rotate(90deg);
+        transition: all 0.4s ease;
+    }
+
+    .technologies__item--24 {
+        margin-top: 34px;
+    }
+    
+    .technologies__block--24:active .technologies__card--24,
+    .technologies__block--24:hover .technologies__card--24,
+    .technologies__block--24:focus .technologies__card--24 {
+        display: block;
+    }
+
+    .technologies__arrow--24 {
+        transition: all 0.4s ease;
+    }
+
+    .technologies__block--24:active .technologies__arrow--24,
+    .technologies__block--24:hover .technologies__arrow--24,
+    .technologies__block--24:focus .technologies__arrow--24 {
+        content: "";
+        transform: rotate(90deg);
+        transition: all 0.4s ease;
+    }
+
+    .technologies__item--25 {
+        margin-top: 38px;
+    }
+    
+    .technologies__block--25:active .technologies__card--25,
+    .technologies__block--25:hover .technologies__card--25,
+    .technologies__block--25:focus .technologies__card--25 {
+        display: block;
+    }
+
+    .technologies__arrow--25 {
+        transition: all 0.4s ease;
+    }
+
+    .technologies__block--25:active .technologies__arrow--25,
+    .technologies__block--25:hover .technologies__arrow--25,
+    .technologies__block--25:focus .technologies__arrow--25 {
+        content: "";
+        transform: rotate(90deg);
+        transition: all 0.4s ease;
+    }
+
+    .technologies__item--26 {
+        margin-top: 33px;
+    }
+    
+    .technologies__block--26:active .technologies__card--26,
+    .technologies__block--26:hover .technologies__card--26,
+    .technologies__block--26:focus .technologies__card--26 {
+        display: block;
+    }
+
+    .technologies__arrow--26 {
+        transition: all 0.4s ease;
+    }
+
+    .technologies__block--26:active .technologies__arrow--26,
+    .technologies__block--26:hover .technologies__arrow--26,
+    .technologies__block--26:focus .technologies__arrow--26 {
+        content: "";
+        transform: rotate(90deg);
+        transition: all 0.4s ease;
+    }
+
+    .technologies__item--27 {
+        margin-top: 35px;
+    }
+    
+    .technologies__block--27:active .technologies__card--27,
+    .technologies__block--27:hover .technologies__card--27,
+    .technologies__block--27:focus .technologies__card--27 {
+        display: block;
+    }
+
+    .technologies__arrow--27 {
+        transition: all 0.4s ease;
+    }
+
+    .technologies__block--27:active .technologies__arrow--27,
+    .technologies__block--27:hover .technologies__arrow--27,
+    .technologies__block--27:focus .technologies__arrow--27 {
+        content: "";
+        transform: rotate(90deg);
+        transition: all 0.4s ease;
+    }
+
+    .technologies__item--28 {
+        margin-top: 28px;
+    }
+    
+    .technologies__block--28:active .technologies__card--28,
+    .technologies__block--28:hover .technologies__card--28,
+    .technologies__block--28:focus .technologies__card--28 {
+        display: block;
+    }
+
+    .technologies__arrow--14 {
+        transition: all 0.4s ease;
+    }
+
+    .technologies__block--28:active .technologies__arrow--28,
+    .technologies__block--28:hover .technologies__arrow--28,
+    .technologies__block--28:focus .technologies__arrow--28 {
+        content: "";
+        transform: rotate(90deg);
+        transition: all 0.4s ease;
+    }
+}
+
+@media (min-width: 1200px) {
+    .technologies__item--1 {
+        margin-top: 20px;
+    }
+    
+    .technologies__item--2 {
+        margin-top: 41px;
+    }
+    
+    .technologies__item--3 {
+        margin-top: 47px;
+    }
+    
+    .technologies__item--4 {
+        margin-top: 46px;
+    }
+    
+    .technologies__item--5 {
+        margin-top: 53px;
+    }
+    
+    .technologies__item--6 {
+        margin-top: 50px;
+    }
+    
+    .technologies__item--7 {
+        margin-top: 52px;
+    }
+    
+    .technologies__item--8 {
+        margin-top: 57px;
+    }
+    
+    .technologies__item--9 {
+        margin-top: 46px;
+    }
+    
+    .technologies__item--10 {
+        margin-top: 42px;
+    }
+    
+    .technologies__item--11 {
+        margin-top: 61px;
+    }
+    
+    .technologies__item--12 {
+        margin-top: 52px;
+    }
+    
+    .technologies__item--13 {
+        margin-top: 44px;
+    }
+    
+    .technologies__item--14 {
+        margin-top: 56px;
+    }
+
+    .technologies__item--15 {
+        margin-top: 20px;
+    }
+    
+    .technologies__item--16 {
+        margin-top: 54px;
+    }
+    
+    .technologies__item--17 {
+        margin-top: 45px;
+    }
+    
+    .technologies__item--18 {
+        margin-top: 43px;
+    }
+    
+    .technologies__item--19 {
+        margin-top: 24px;
+    }
+    
+    .technologies__item--20 {
+        margin-top: 52px;
+    }
+    
+    .technologies__item--21 {
+        margin-top: 61px;
+    }
+    
+    .technologies__item--22 {
+        margin-top: 66px;
+    }
+    
+    .technologies__item--23 {
+        margin-top: 46px;
+    }
+    
+    .technologies__item--24 {
+        margin-top: 47px;
+    }
+    
+    .technologies__item--25 {
+        margin-top: 56px;
+    }
+    
+    .technologies__item--26 {
+        margin-top: 46px;
+    }
+    
+    .technologies__item--27 {
+        margin-top: 51px;
+    }
+    
+    .technologies__item--28 {
+        margin-top: 40px;
+    }
+}
+
+@media (min-width: 1800px) {
+    .technologies__item--1 {
+        margin-top: 29px;
+    }
+    
+    .technologies__item--2 {
+        margin-top: 61px;
+    }
+    
+    .technologies__item--3 {
+        margin-top: 69px;
+    }
+    
+    .technologies__item--4 {
+        margin-top: 64px;
+    }
+    
+    .technologies__item--5 {
+        margin-top: 72px;
+    }
+    
+    .technologies__item--6 {
+        margin-top: 69px;
+    }
+    
+    .technologies__item--7 {
+        margin-top: 68px;
+    }
+    
+    .technologies__item--8 {
+        margin-top: 74px;
+    }
+    
+    .technologies__item--9 {
+        margin-top: 61px;
+    }
+    
+    .technologies__item--10 {
+        margin-top: 58px;
+    }
+    
+    .technologies__item--11 {
+        margin-top: 84px;
+    }
+    
+    .technologies__item--12 {
+        margin-top: 70px;
+    }
+    
+    .technologies__item--13 {
+        margin-top: 65px;
+    }
+    
+    .technologies__item--14 {
+        margin-top: 81px;
+    }
+
+    .technologies__item--15 {
+        margin-top: 26px;
+    }
+    
+    .technologies__item--16 {
+        margin-top: 74px;
+    }
+    
+    .technologies__item--17 {
+        margin-top: 66px;
+    }
+    
+    .technologies__item--18 {
+        margin-top: 60px;
+    }
+    
+    .technologies__item--19 {
+        margin-top: 31px;
+    }
+    
+    .technologies__item--20 {
+        margin-top: 69px;
+    }
+    
+    .technologies__item--21 {
+        margin-top: 86px;
+    }
+    
+    .technologies__item--22 {
+        margin-top: 92px;
+    }
+    
+    .technologies__item--23 {
+        margin-top: 61px;
+    }
+    
+    .technologies__item--24 {
+        margin-top: 61px;
+    }
+    
+    .technologies__item--25 {
+        margin-top: 72px;
+    }
+    
+    .technologies__item--26 {
+        margin-top: 61px;
+    }
+    
+    .technologies__item--27 {
+        margin-top: 70px;
+    }
+    
+    .technologies__item--28 {
+        margin-top: 57px;
+    }
+}
+
+.technologies__form {
+    position: relative;
+    margin-top: 50px;
+}
+
+.technologies__form--img-mobile {
+    position: absolute;
+    top: -100px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.technologies__form--btn {
+    position: relative;
+    bottom: -1.25rem;
+    left: 50%;
+    transform: translate(-50%, 0);
+}

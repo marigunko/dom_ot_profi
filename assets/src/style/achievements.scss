@@ -1,0 +1,121 @@
+/*ACHIEVEMENTS*/
+
+.achievements {
+    background-image: url("../img/background-achievements.png");
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;  
+    background-color: #FFFFFF; 
+    margin: auto;
+    overflow: hidden;
+}
+
+.achievements__card {
+    position: relative;
+    width: 280px;
+    //box-shadow: 0 -10px 5px -5px rgba(255, 235, 153, 1);
+    margin: 60px auto 0;
+    padding-top: 30px;
+}
+
+.achievements__card--img-1 {
+    position: absolute;
+    top: -65px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.achievements__card--img-2 {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.achievements__card--img-3 {
+    position: absolute;
+    top: -45px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.achievements__card--img-4 {
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.achievements__img {
+    position: relative;
+    top: 50px;
+    left: 10%;
+}
+
+@media (min-width: 576px) {
+    .achievements__card {
+        width: 436px;
+    }
+}
+
+@media (min-width: 768px) {
+    .achievements__card {
+        width: 508px;
+    }
+}
+
+@media (min-width: 992px) {
+    .achievements {
+        padding-bottom: 250px;
+    }
+
+    .achievements__content {
+        width: 892px;
+        margin: auto;
+    }
+
+    .achievements__card {
+        width: 280px;
+    }
+    
+    .achievements__cards {
+        position: relative;
+    }
+    
+    .achievements__card--1 {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .achievements__card--2 {
+        position: absolute;
+        top: -70px;
+        left: 600px;
+    }
+
+    .achievements__card--3 {
+        position: absolute;
+        top: 260px;
+        left: 0;
+    }
+
+    .achievements__card--4 {
+        position: absolute;
+        top: 200px;
+        left: 600px;
+        z-index: 1;
+    }
+    
+    .achievements__img {
+        position: relative;
+        width: 500px;
+        top: 100px;
+        left: 30%;
+    }
+}

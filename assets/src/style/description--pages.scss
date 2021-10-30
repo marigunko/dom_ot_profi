@@ -1,0 +1,36 @@
+/*DESCRIPTION--PAGES*/
+
+.description--pages {
+    background-image: url("../img/background-description-mobile.png");
+    background-size: cover;
+    background-position: top 30% center;
+    background-repeat: no-repeat;
+    padding-bottom: 50px;   
+}
+
+@media (min-width: 992px) {
+    .description--pages {
+        background-image: url("../img/background-description-tablet.png");
+        background-size: 100% auto;
+        background-position: top 30% center;
+        background-repeat: no-repeat;   
+        padding-bottom: 50px;   
+    }
+}
+
+@media (min-width: 1200px) {
+    .description--pages {
+        background-image: url("../img/background-description-desktop.png");
+        background-size: cover;
+        background-position: top center;
+        background-repeat: no-repeat; 
+        padding-bottom: 50px; 
+    }
+}
+
+.link-page,
+.link-page:active,
+.link-page:hover,
+.link-page:focus {
+    color: #1A9F29;
+}

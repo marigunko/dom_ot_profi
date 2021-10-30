@@ -1,0 +1,13 @@
+/*CATALOG*/
+
+@media (min-width: 992px) {
+    .catalog {
+        background-image: url("../img/catalog-img.png");
+        background-size: auto 90%;
+        background-position: top left;
+        background-repeat: no-repeat;
+        margin-top: 30px;
+        padding-bottom: 50px;   
+        overflow: hidden;
+    }
+}

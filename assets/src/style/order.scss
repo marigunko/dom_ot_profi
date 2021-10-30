@@ -1,0 +1,58 @@
+/*ORDER*/
+
+.order {
+    background-image: url("../img/background-order-desktop.png");
+    background-size: cover;
+    background-position: bottom right 18%;
+    background-repeat: no-repeat;
+    padding-bottom: 50px;   
+    overflow: hidden;
+}
+
+@media (min-width: 768px) {
+    .order {
+        background-image: url("../img/background-order-desktop.png");
+        background-size: cover;
+        background-position: bottom right 8%;
+        background-repeat: no-repeat;
+        padding-bottom: 50px;   
+        overflow: hidden;
+    }
+}
+
+@media (min-width: 992px) {
+    .order {
+        background-image: url("../img/background-order-desktop.png");
+        background-size: cover;
+        background-position: bottom center;
+        background-repeat: no-repeat;
+        padding-bottom: 50px;   
+        overflow: hidden;
+    }
+}
+
+.order__card {
+    width: 80%;
+    margin: auto;
+}
+
+@media (min-width: 768px) {
+    .order__card {
+        width: 60%;
+        margin: auto;
+    }
+}
+
+@media (min-width: 992px) {
+    .order__card {
+        width: 40%;
+        margin: auto;
+    }
+}
+
+@media (min-width: 992px) {
+    .order__card {
+        width: 410px;
+        margin: auto;
+    }
+}

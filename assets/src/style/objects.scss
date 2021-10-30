@@ -1,0 +1,24 @@
+/*OBJECTS*/
+
+.objects__card--btn {
+    position: relative;
+    top: -1rem;
+}
+
+.objects__nav {
+    width: 25px;
+    height: 20px;
+    border: 1px solid #ECECEC;
+    border-radius: 3px;
+    box-shadow: inset 0px 0px 5px #ECECEC;
+}
+
+.objects__nav--active {
+    width: 25px;
+    height: 20px;
+    color: #FFFFFF;
+    background-color: #1A9F29;
+    border: 1px solid #1A9F29;
+    border-radius: 3px;
+    box-shadow: none;
+}

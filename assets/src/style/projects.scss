@@ -1,0 +1,51 @@
+/*PROJECTS*/
+
+.projects__card--btn {
+    display: none;
+}
+
+.project__card--btn {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .projects__card--btn {
+        display: block;
+        position: absolute;
+        top: 1.25rem;
+    }
+
+    .project__card--btn {
+        display: block;
+        position: absolute;
+        top: 0;
+    }
+}
+
+.feature__img {
+    position: relative;
+    z-index: 1;
+    right: 4rem;
+}
+
+@media (min-width: 768px) {
+    .feature__img {
+        width: 130px;
+        height: auto;
+        top: 1rem;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .feature__img--1 {
+        top: 1rem;
+    }
+
+    .feature__img--2 {
+        top: 1.5rem;
+    }
+
+    .feature__img--3 {
+        top: 2rem;
+    }
+}

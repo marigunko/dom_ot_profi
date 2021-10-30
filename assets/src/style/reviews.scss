@@ -1,0 +1,16 @@
+/*REVIEWS*/
+
+@media (max-width: 767.98px) {
+    .reviews__card--btn {
+        position: relative;
+        bottom: -2.50rem;
+        left: 50%;
+        transform: translate(-50%, 0);
+        background: #FFFFFF;
+    }
+}
+
+.reviews__sl {
+    max-width: 768px;
+    margin: auto;
+}

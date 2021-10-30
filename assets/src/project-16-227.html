@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/main.min.css" rel="stylesheet">
+        <title>DomOtProfi</title>
+    </head>
+    <body>
+
+        <header class="container-fluid fixed-top nav__container">
+            <nav class="navbar navbar-expand-md container-fluid d-flex justify-content-between p-0">
+                <div class="navbar__icon d-md-none" type="button" data-target="#menu-nav" data-toggle="collapse"> 
+                </div>
+                <a href="#" class="d-md-none">
+                    <img src="img/phone-yellow.svg" width="45" height="45" alt="">
+                </a>
+                <div id="menu-nav" class="collapse navbar-collapse">
+                    <ul class="navbar-nav d-flex flex-wrap align-items-center ml-0 mr-auto mr-xl-5 ml-xl-auto">
+                        <li class="nav-item dropdown my-3 mx-2">
+                            <a href="#" class="nav-link dropdown-toggle text-center font-mr-16 black" role="button" id="dropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">О компании</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink1">
+                                <a class="dropdown-item" href="#">Отзывы</a>
+                                <a class="dropdown-item" href="#">Сертификаты</a>
+                                <a class="dropdown-item" href="#">Как мы работаем</a>
+                                <a class="dropdown-item" href="#">Реквизиты</a>
+                                <a class="dropdown-item" href="#">Блог</a>
+                                <a class="dropdown-item" href="#">Гарантии</a>
+                                <a class="dropdown-item" href="#">Почему мы</a>
+                            </div>
+                        </li>
+                        <li class="nav-item my-3 mx-2">
+                            <a href="projects.html" class="nav-link text-center font-mr-16 black mt-1">Проекты</a>
+                        </li>
+                        <li class="nav-item my-3 mx-2">
+                            <a href="objects.html" class="nav-link text-center font-mr-16 black mt-1">Объекты</a>
+                        </li>
+                        <li class="nav-item dropdown my-3 mx-2">
+                            <a href="#" class="nav-link dropdown-toggle text-center font-mr-16 black" role="button" id="dropdownMenuLink4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Услуги</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink4">
+                                <a class="dropdown-item" href="#">Проектирование</a>
+                                <a class="dropdown-item" href="#">Расчет стоимости строительства</a>
+                                <a class="dropdown-item" href="#">Акции</a>
+                                <a class="dropdown-item" href="#">Кредит на дом</a>
+                            </div>
+                        </li>
+                        <li class="nav-item my-3 mx-2">
+                            <a href="#" class="nav-link text-center font-mr-16 black mt-1">Отзывы</a>
+                        </li>
+                        <li class="nav-item my-3 mx-2">
+                            <a href="#" class="nav-link text-center font-mr-16 black mt-1">Контакты</a>
+                        </li>
+                    </ul>
+                </div>  
+                
+                <div class="d-none d-md-block d-xl-none wrapper">
+                    <div class="box">
+                        <div class="container-2">
+                            <span class="icon">
+                                <img src="img/search.svg" width="25" height="25" alt="">
+                            </span>
+                            <input type="search" id="search" placeholder="Поиск" />
+                        </div>
+                    </div>
+                </div>
+                <div class="d-none d-xl-block ml-5">
+                    <div class="box">
+                        <div class="container-1">
+                            <span class="icon">
+                                <img src="img/search.svg" width="25" height="25" alt="">
+                            </span>
+                            <input type="search" id="search" placeholder="Поиск" />
+                        </div>
+                      </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <section class="description--pages">
+                <div class="container-fluid pt-5" style="max-width: 1400px; margin: auto;">
+                    <div class="row mt-3 mt-md-5">
+                        <div class="col-12 col-md-5">
+                            <div class="d-flex align-items-end">
+                                <picture>
+                                    <source srcset="img/logo.svg" width="63" height="70"  media="(min-width: 1200px)">
+                                    <source srcset="img/logo.svg" width="56" height="62"  media="(min-width: 768px)">
+                                    <img src="img/logo.svg" width="50" height="56" alt="Лого">
+                                </picture>
+                                <div class="ml-3">
+                                    <h1 class="font-rb-14 green">ДОМ ОТ ПРОФИ</h1>
+                                <p class="font-mm-10 mb-0">СТРОИТЕЛЬСТВО И ПРОЕКТИРОВАНИЕ <br>ДОМОВ ИЗ ГАЗОБЕТОНА <b>В МОСКВЕ И МО</b></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-none d-md-block col-7">
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="d-flex mb-2">
+                                        <img src="img/youtube.svg" class="mr-3" width="28" height="28" alt="">
+                                        <img src="img/instagram.svg" class="mr-3" width="28" height="28" alt="">
+                                        <img src="img/whatsapp.svg" class="mr-3" width="28" height="28" alt="">
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <img src="img/dot-with-shadow.svg" class="mr-2" width="18" height="18" alt="">
+                                        <p class="font-mr-14 mb-0"><u>Заказать звонок</u></p>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <img src="img/e-mail.svg" class="mr-2" width="24" height="18" alt="">
+                                        <p class="font-mr-14 mb-0">info@domotprofi.ru</p>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <img src="img/phone.svg" class="mr-2" width="24" height="24" alt="">
+                                        <p class="font-msb-16 mb-0">8(495)369-57-39</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html" class="link-page"><u>Главная</u></a></li>
+                            <li class="breadcrumb-item"><a href="projects.html" class="link-page"><u>Проекты</u></a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Проект 16-227</li>
+                        </ol>
+                    </nav>
+                </div>
+            </section>
+
+            <section class="filter">
+                <div class="container-fluid pb-xl-5">
+                    <div class="card card-shadow p-lg-4" style="max-width: 1400px; margin: auto;">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-12 col-lg-6 p-0 p-md-3">
+                                    <div class="house__sl">
+                                        <div class="sl__item">
+                                            <p class="btn btn-warning project__card--btn font-mm-12 mb-0">Стоимость строительства <br>от <span class="font-msb-16 green">4 443 000 ₽</span></p>
+                                            <img src="img/project-1.png" width="100%" height="auto" alt="">   
+                                        </div>
+                                        <div class="sl__item">
+                                            <p class="btn btn-warning project__card--btn font-mm-12 mb-0">Стоимость строительства <br>от <span class="font-msb-16 green">4 443 000 ₽</span></p>
+                                            <img src="img/project-1.png" width="100%" height="auto" alt="">
+                                        </div>
+                                    </div> 
+                                </div>
+                                <div class="col-12 col-lg-6">
+                                    <p class="font-msb-16 green mt-3">Общие характеристики дома</p>
+                                    <table class="table">
+                                        <tbody>
+                                            <tr>
+                                                <td class="font-mm-12">Общая площадь дома</td>
+                                                <td class="font-mm-12">227 м<sup>2</sup.</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="font-mm-12">Площадь помещений</td>
+                                                <td class="font-mm-12">181 м<sup>2</sup</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="font-mm-12">Габаритные размеры</td>
+                                                <td class="font-mm-12">11,0 x 10,0 м.</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="font-mm-14 mb-0">Стоимость готового проекта</td>
+                                                <td class="font-mm-16 mb-0">34 050 ₽</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="font-mm-12">―  с изменениями</td>
+                                                <td class="font-mm-12">90 800 ₽</td>
+                                            </tr>
+                                        </tbody>
+                                    </table> 
+                                    <div class="row">
+                                        <div class="col-8 col-md-4 order-md-4 mb-2">
+                                            <a href="#" class="btn btn-block btn-outline-warning btn-lg text-center font-mm-12 black mb-3">Заказать проект</a>  
+                                        </div>
+                                        <div class="col-4 col-md-4 order-md-1">
+                                            <img class="feature__img feature__img--1" src="img/order-project.png" width="70" height="auto" alt="">   
+                                        </div>
+                                        <div class="col-8 col-md-4 order-md-5 mb-2">
+                                            <a href="#" class="btn btn-block btn-outline-warning btn-lg text-center font-mm-12 black mb-3">Посетить объект</a>
+                                        </div>
+                                        <div class="col-4 col-md-4 order-md-2">
+                                            <img class="feature__img feature__img--2" src="img/visit-object.png" width="70" height="auto" alt="">   
+                                        </div>
+                                        <div class="col-8 col-md-4 order-md-6 mb-2">
+                                            <a href="#" class="btn btn-block btn-outline-warning btn-lg text-center font-mm-12 black mb-3">Изменить проект </a> 
+                                        </div> 
+                                        <div class="col-4 col-md-4 order-md-3">
+                                            <img class="feature__img feature__img--3" src="img/change-project.png" width="70" height="auto" alt="">  
+                                        </div> 
+                                    </div> 
+                                </div>
+                            </div>
+                            <div class="p-2">
+                                <div class="nav nav-tabs justify-content-center about-project__sl" id="nav-tab" role="tablist">
+                                    <a class="nav-link sl__item active py-3" id="nav-tab-1" href="#step-1" role="tab" data-toggle="tab"><span class="font-mr-20 black">Планы и фасады</span></a>
+                                    <a class="nav-link sl__item py-3" id="nav-tab-2" href="#step-2"role="tab" data-toggle="tab"><span class="font-mr-20 black">О проекте</span></a>
+                                    <a class="nav-link sl__item py-3" id="nav-tab-3" href="#step-3"role="tab" data-toggle="tab"><span class="font-mr-20 black">Комплектация</span></a>
+                                    <a class="nav-link sl__item py-3" id="nav-tab-4" href="#step-4"role="tab" data-toggle="tab"><span class="font-mr-20 black">Проектирование</span></a>
+                                    <a class="nav-link sl__item py-3" id="nav-tab-5" href="#step-5"role="tab" data-toggle="tab"><span class="font-mr-20 black">Построенные объекты</span></a>
+                                </div>
+                                <div class="tab-content tab-content--grey" id="tab-content">
+                                    <div class="tab-pane fade active show" role="tabpanel" id="step-1">
+                                        <div class="d-lg-none">
+                                            <div class="tab-1__sl--mobile pb-4">
+                                                <div class="sl__item p-3">
+                                                    <img src="img/project-plan-1.png" width="100%" height="auto" alt="">  
+                                                </div>
+                                                <div class="sl__item p-3">
+                                                    <img src="img/project-plan-2.png" width="100%" height="auto" alt="">  
+                                                </div>
+                                                <div class="sl__item p-3">
+                                                    <img src="img/project-faсade.png" width="100%" height="auto" alt="">  
+                                                </div>
+                                                <div class="sl__item p-3">
+                                                    <img src="img/project-faсade.png" width="100%" height="auto" alt="">  
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-none d-lg-block">
+                                            <div class="row mx-1">
+                                                <div class="col-3 align-self-center">
+                                                    <img src="img/project-plan-1.png" width="100%" height="auto" alt="">  
+                                                </div>
+                                                <div class="col-3 align-self-center">
+                                                    <img src="img/project-plan-2.png" width="100%" height="auto" alt="">  
+                                                </div>
+                                                <div class="col-6">
+                                                    <div class="tab-1__sl--desktop">
+                                                        <div class="sl__item">
+                                                            <img src="img/project-faсade.png" width="100%" height="auto" alt="">  
+                                                        </div>
+                                                        <div class="sl__item">
+                                                            <img src="img/project-faсade.png" width="100%" height="auto" alt="">  
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade p-3" role="tabpanel" id="step-2">
+                                        <div class="row">
+                                            <div class="col-12 col-lg-6 align-self-center">
+                                                <div class="tab-2__sl">
+                                                    <div class="sl__item">
+                                                        <img src="img/project-about.png" width="100%" height="auto" alt=""> 
+                                                    </div>
+                                                    <div class="sl__item">
+                                                        <img src="img/project-about.png" width="100%" height="auto" alt=""> 
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-6 order-lg-first">
+                                                <p class="font-mr-14">Проект разработан в комплектации:</p>
+                                                <p class="font-mr-14"><u>АР+АС (Архитектурные и строительные чертежи).</u></p>
+                                                <ul class="font-mr-14"><b>Состав такого проекта включает:</b></ul>
+                                                <div class="row">
+                                                    <div class="col-12 col-lg-6">
+                                                        <p class="font-mr-14 mb-2">Титульный лист</p>
+                                                        <p class="font-mr-14 mb-2">Ведомость листов</p>
+                                                        <p class="font-mr-14 mb-2">Пояснительная записка</p>
+                                                        <p class="font-mr-14 mb-2">План расположения дома на участке</p>
+                                                        <p class="font-mr-14 mb-2">Планы этажей</p>
+                                                        <p class="font-mr-14 mb-2">Ведомость оконных и дверных проемов</p>
+                                                        <p class="font-mr-14 mb-2">Вентканалы и дымоходы</p>
+                                                        <p class="font-mr-14 mb-2">Узлы кровли</p>
+                                                        <p class="font-mr-14 mb-2">Балочные и стропильные системы</p>
+                                                        <p class="font-mr-14 mb-2">Армирование и усиление системы</p>
+                                                    </div>
+                                                    <div class="col-12 col-lg-6">
+                                                        <p class="font-mr-14 mb-2">Два 3d вида</p>
+                                                        <p class="font-mr-14 mb-2">План фундамента</p>
+                                                        <p class="font-mr-14 mb-2">Сечение фундамента</p>
+                                                        <p class="font-mr-14 mb-2">Узлы фундамента</p>
+                                                        <p class="font-mr-14 mb-2">Схемы перекрытий</p>
+                                                        <p class="font-mr-14 mb-2">Узлы стен</p>
+                                                        <p class="font-mr-14 mb-2">Фасады</p>
+                                                        <p class="font-mr-14 mb-2">Разрезы</p>
+                                                        <p class="font-mr-14 mb-2">Лестница</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+                                    <div class="tab-pane fade" role="tabpanel p-3" id="step-3">
+                                        <div class="row">
+                                            <div class="col-12 col-md-4">
+                                                <div class="nav nav-pills justify-content-center flex-md-column m-3" id="nav-tab" role="tablist">
+                                                    <a class="set__nav-link nav-link active" id="nav-tab-1-1" href="#step-1-1" role="tab" data-toggle="tab">Фундамент</a>
+                                                    <a class="set__nav-link nav-link" id="nav-tab-2-2" href="#step-2-2"role="tab" data-toggle="tab">Перекрытия</a>
+                                                    <a class="set__nav-link nav-link" id="nav-tab-3-3" href="#step-3-3"role="tab" data-toggle="tab">Стены</a>
+                                                    <a class="set__nav-link nav-link" id="nav-tab-4-4" href="#step-4-4"role="tab" data-toggle="tab">Стропильная кровля</a>
+                                                    <a class="set__nav-link nav-link" id="nav-tab-5-5" href="#step-5-5"role="tab" data-toggle="tab">Кровельное покрытие</a>
+                                                    <a class="set__nav-link nav-link" id="nav-tab-6-6" href="#step-6-6"role="tab" data-toggle="tab">Вентканалы</a>
+                                                    <a class="set__nav-link nav-link" id="nav-tab-7-7" href="#step-7-7"role="tab" data-toggle="tab">Закладные</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-md-8">
+                                                <div class="tab-content" id="tab-content">
+                                                    <div class="tab-pane fade active show" role="tabpanel" id="step-1-1">
+                                                        <img class="d-lg-none" src="img/project-mobile-1.png" width="100%" height="auto" alt="">
+                                                        <p class="font-mr-16 green my-3">Свайный-ростверковый (мелкозагубленная лента с буронабивными сваями) с утепленным монолитным перекрытием на песчанном основании</p>
+                                                        <img class="d-none d-lg-block" src="img/project-complectation-1.png" width="60%" height="auto" alt="">
+                                                        <p class="font-mr-14 my-3">Применяется при больших перепадах  уровня грунта на участке. <br>Сваи заглубляются ниже уровня промерзания грунта, что обеспечивает устойчивость к силам морозного пучения.</p>
+                                                        <div class="d-flex">
+                                                            <p class="font-mr-14 mr-3">Сваи: </p>
+                                                            <ul>
+                                                                <li class="d-flex">
+                                                                    <img src="img/tick-green.svg" width="14" height="14" alt="">
+                                                                    <p class="font-mr-14 ml-3">создают дополнительное трение</p> 
+                                                                </li>
+                                                                <li class="d-flex">
+                                                                    <img src="img/tick-green.svg" width="14" height="14" alt="">
+                                                                    <p class="font-mr-14 ml-3">уменьшают рычаг действия сил пучения, не позволяя им девормировать ленту (ростверк, который связывает сваи).</p> 
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tab-pane fade p-3" role="tabpanel" id="step-2-2">
+                                                        <img class="d-lg-none" src="img/project-mobile-2.png" width="100%" height="auto" alt="">
+                                                        <p class="font-mr-16 green my-3">Монолитные и железобетонные плиты</p>
+                                                        <img class="d-none d-lg-block" src="img/project-complectation-2.png" width="60%" height="auto" alt="">
+                                                        <p class="font-mr-14 my-3">Монолитный железобетон - метод строительства, позволяющий получить целостную единую конструкцию максимальной прочности и надежности.</p>
+                                                        <p class="font-mr-14 mr-3">Данное перекрытие:</p>
+                                                        <ul>
+                                                            <li class="d-flex">
+                                                                <img src="img/tick-green.svg" width="14" height="14" alt="">
+                                                                <p class="font-mr-14 ml-3">не ограничивает в планировке</p> 
+                                                            </li>
+                                                            <li class="d-flex">
+                                                                <img src="img/tick-green.svg" width="14" height="14" alt="">
+                                                                <p class="font-mr-14 ml-3">обеспечивает ровный пол без стыков и щелей</p> 
+                                                            </li>
+                                                            <li class="d-flex">
+                                                                <img src="img/tick-green.svg" width="14" height="14" alt="">
+                                                                <p class="font-mr-14 ml-3">гарантирует отсутствие вибраций</p> 
+                                                            </li>
+                                                            <li class="d-flex">
+                                                                <img src="img/tick-green.svg" width="14" height="14" alt="">
+                                                                <p class="font-mr-14 ml-3">предусмотривает технологические отверстия, например под коммуникации.</p> 
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="tab-pane fade p-3" role="tabpanel" id="step-3-3">
+                                                        <img class="d-lg-none" src="img/project-mobile-3.png" width="100%" height="auto" alt="">
+                                                        <p class="font-mr-16 green my-3">Газобетонные блоки Bonolit 150мм, 375мм, 400мм</p>
+                                                        <img class="d-none d-lg-block" src="img/project-complectation-3.png" width="60%" height="auto" alt="">
+                                                        <p class="font-mr-14 my-3">Газобетонны блок не требует дополнительного утепления и облицовки здания кирпичем, так как даже при толщине блока 350мм оптимально подходит для эксплуатации в нашей климатической зоне без использования дополнительного утепления.</p>
+                                                        <p class="font-mr-14 mr-3">Преимущества данного материала:</p>
+                                                        <ul>
+                                                            <li class="d-flex">
+                                                                <img src="img/tick-green.svg" width="14" height="14" alt="">
+                                                                <p class="font-mr-14 ml-3"> экологически чистый</p> 
+                                                            </li>
+                                                            <li class="d-flex">
+                                                                <img src="img/tick-green.svg" width="14" height="14" alt="">
+                                                                <p class="font-mr-14 ml-3">прочный</p> 
+                                                            </li>
+                                                            <li class="d-flex">
+                                                                <img src="img/tick-green.svg" width="14" height="14" alt="">
+                                                                <p class="font-mr-14 ml-3"> огнестойкий </p> 
+                                                            </li>
+                                                            <li class="d-flex">
+                                                                <img src="img/tick-green.svg" width="14" height="14" alt="">
+                                                                <p class="font-mr-14 ml-3">имеет точные геометрические размеры</p> 
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="tab-pane fade p-3" role="tabpanel" id="step-4-4">
+                                                        <img class="d-lg-none" src="img/project-mobile-4.png" width="100%" height="auto" alt="">
+                                                        <p class="font-mr-16 green my-3">Стропильная кровля с утеплением</p>
+                                                        <p class="font-mr-14 my-3">Устройство стропильной системы с усилениями и обрешетками. <br>Мы используем калиброванный, строганный пиломатериал, и предусмотрели оптимальную толщину утеплителя для зимнего проживания - 200мм.</p>
+                                                        <img class="d-none d-lg-block" src="img/project-complectation-4.png" width="60%" height="auto" alt="">
+                                                        <p class="font-mr-14 my-3">Мы используем качественный кровельный утеплитель ROCKWOOL (LBC) мин.вата 28-34кг/м.кв. Утеплитель защищен от влажного внутреннего воздуха теплоотражающей пароизоляцией Ютафол Н АЛ 170, и снаружи защищен гидроизоляционной мембраной ИЗОСПАМ АМ.</p>
+                                                        <p class="font-mr-14 mr-3">В процессе строительства, в обязательном порядке, пиломатериал проходит огне/био обработку, что исключает :</p>
+                                                        <ul>
+                                                            <li class="d-flex">
+                                                                <img src="img/tick-green.svg" width="14" height="14" alt="">
+                                                                <p class="font-mr-14 ml-3">образования плесени</p> 
+                                                            </li>
+                                                            <li class="d-flex">
+                                                                <img src="img/tick-green.svg" width="14" height="14" alt="">
+                                                                <p class="font-mr-14 ml-3">появления жучков</p> 
+                                                            </li>
+                                                            <li class="d-flex">
+                                                                <img src="img/tick-green.svg" width="14" height="14" alt="">
+                                                                <p class="font-mr-14 ml-3">повышает класс огнестойкости материала</p> 
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="tab-pane fade p-3" role="tabpanel" id="step-5-5">
+                                                        <img class="d-lg-none" src="img/project-mobile-5.png" width="100%" height="auto" alt="">
+                                                        <p class="font-mr-16 green my-3">Мягкая черепица из окисленного битума  Shinglas COUNTRY цвет Алабама</p>
+                                                        <p class="font-mr-14 my-3">Битумная черепица крайне надёжное и устойчивое к погодным условиям покрытие.</p>
+                                                        <ul>
+                                                            <li class="d-flex">
+                                                                <img src="img/tick-green.svg" width="14" height="14" alt="">
+                                                                <p class="font-mr-14 ml-3">экологична</p> 
+                                                            </li>
+                                                            <li class="d-flex">
+                                                                <img src="img/tick-green.svg" width="14" height="14" alt="">
+                                                                <p class="font-mr-14 ml-3">абсолютно герметична</p> 
+                                                            </li>
+                                                            <li class="d-flex">
+                                                                <img src="img/tick-green.svg" width="14" height="14" alt="">
+                                                                <p class="font-mr-14 ml-3">прекрасно справляется с природными нагрузками (снег, доджь, ветер)</p> 
+                                                            </li>
+                                                            <li class="d-flex">
+                                                                <img src="img/tick-green.svg" width="14" height="14" alt="">
+                                                                <p class="font-mr-14 ml-3">легко переносит перепады температур</p> 
+                                                            </li>
+                                                            <li class="d-flex">
+                                                                <img src="img/tick-green.svg" width="14" height="14" alt="">
+                                                                <p class="font-mr-14 ml-3">повышает класс огнестойкости материала</p> 
+                                                            </li>
+                                                        </ul>
+                                                        <img class="d-none d-lg-block" src="img/project-complectation-5.png" width="60%" height="auto" alt="">
+                                                        <p class="font-mr-14 my-3">В комплектацию входят снегозадержатели. В регионах со снежными зимами установка снегозадержателей на крыше считается обязательной. Это элементы безопасности, которые защищают от лавинообразного схода снега, льда с поверхности кровли.</p>
+                                                        
+                                                    </div>
+                                                    <div class="tab-pane fade p-3" role="tabpanel" id="step-6-6">
+                                                        <img class="d-lg-none" src="img/project-mobile-6.png" width="100%" height="auto" alt="">
+                                                        <p class="font-mr-16 green my-3">Австрийские керамзитобетонные вентиляционные каналы Schiedel</p>
+                                                        <p class="font-mr-14 my-3">За счет их размера их удобно встраивать в стену. Таким образом они совсем не мешают планировке дома. Сечения подобраны для лучшей циркуляции и обеспечения необходимого воздухообмена.</p>
+                                                        <p class="font-mr-14 my-3">Вентканалы Schiedel абсолютно бесшумны.        </p>
+                                                        <img class="d-none d-lg-block" src="img/project-complectation-6.png" width="60%" height="auto" alt="">
+                                                    </div>
+                                                    <div class="tab-pane fade p-3" role="tabpanel" id="step-7-7">
+                                                        <img class="d-lg-none" src="img/project-mobile-7.png" width="100%" height="auto" alt="">
+                                                        <p class="font-mr-16 green my-3">Закладные под инженерные коммуникации в перекрытиях</p>
+                                                        <img class="d-none d-lg-block" src="img/project-complectation-7.png" width="60%" height="auto" alt="">
+                                                        <p class="font-mr-14 my-3">Очень важно спроектировать закладные под коммуникации уже на начальном этапе проектирования дома. Нужно учесть места расположения санузлов, а уже в самих с/у - места установки сантехники.</p>
+                                                        <p class="font-mr-14 my-3">При работе с клиентами, мы проводим развернутые консультации и подбираем оборудование и схему разводки закладных для каждой конкретной ситуации. При монтаже перекрытий мы сразу делаем необходимые вводы и выводы.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+                                    <div class="tab-pane fade p-3" role="tabpanel" id="step-4">
+                                        <p class="font-mr-14 mb-2">Профессиональные архитекторы <br><span class="green">с 15-тилетним опытом и более 200 проектов за плечами </span><br><b>разработают для вас:</b></p>
+                                        <div class="row">
+                                            <div class="col-12 col-lg-4 mb-3">
+                                                <div class="card h-100 border-success" style="background-color: #F7F7F6;">
+                                                    <div class="card-body">
+                                                        <p class="font-mr-16 green text-center">от 250 руб/м2 </p>
+                                                        <p class="font-mr-12 text-center">Архитектурный проект</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-4 mb-3">
+                                                <div class="card h-100 border-success" style="background-color: #F7F7F6;">
+                                                    <div class="card-body">
+                                                        <p class="font-mr-16 green text-center">от 500 руб/м2 </p>
+                                                        <p class="font-mr-12 text-center">Архитектурно-строительный проект</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-4 mb-3">
+                                                <div class="card h-100 border-success" style="background-color: #F7F7F6;">
+                                                    <div class="card-body">
+                                                        <p class="font-mr-16 green text-center">от 1200 руб/м2 </p>
+                                                        <p class="font-mr-12 text-center">Дизайн-проект</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <ul class="mb-0">
+                                            <li class="d-flex">
+                                                <img src="img/tick-green.svg" width="24" height="14" alt="">
+                                                <p class="font-mr-14 ml-3">Учтем эргономику, особенности вашего участка, все ваши пожелания</p> 
+                                            </li>
+                                            <li class="d-flex">
+                                                <img src="img/tick-green.svg" width="24" height="14" alt="">
+                                                <p class="font-mr-14 ml-3">Рассчитаем конструкции на прочность и энергоэффективность.</p> 
+                                            </li>
+                                        </ul>
+                                        <p class="font-mr-14">По нашим проектам Вы сможете построить даже <b>самостоятельно.</b></p> 
+                                    </div>
+                                    <div class="tab-pane fade p-3" role="tabpanel" id="step-5">
+                                        <div class="row">
+                                            <div class="col-12 col-md-6 col-lg-4">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <img src="img/object-1.png" width="100%" height="auto" alt="">
+                                                        <p class="font-mr-16 my-2">Коттедж в КП Итон</p>
+                                                        <div class="d-flex">
+                                                            <img src="img/calendar-check.svg" width="24" height="14" alt="">
+                                                            <p class="font-mr-16 green ml-3">2020</p> 
+                                                        </div>
+                                                        <a href="#" class="btn btn-outline-warning btn-lg text-center font-mm-12 black">Подробнее</a> 
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div> 
+                    </div>
+                </div>
+            </section>
+            <div class="technologies__form container-fluid row justify-content-center pb-5">
+                <div class="d-none d-lg-block technologies__form--img-desktop text-center">
+                    <img src="img/consultation-man-desktop.png" class="technologies__form--img"  width="300" height="auto" alt="">
+                </div>
+                <div class="card technologies__card--form mt-5 mt-md-3">
+                    <div class="d-lg-none technologies__form--img-mobile text-center">
+                        <img src="img/consultation-man-mobile.png" height="150" width="150" alt="">
+                    </div>
+                    <div class="card-body pb-0">
+                        <p class="font-rr-14 text-center mt-5">Получите <span class="green">бесплатную консультацию </span>от нашего эксперта по строительству <i>Керима</i></p>
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <input type="name" class="form-control" placeholder="Имя">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <input type="tel" class="form-control" placeholder="Телефон">
+                                </div>
+                                <p class="font-mm-10 text-center mb-0"> Нажимая на кнопку вы даёте согласие на <span class="green">обработку персональных данных</span></p>
+                            </div>
+                        </form> 
+                        <button type="submit" class="technologies__form--btn btn btn-warning btn-lg text-center font-mm-12">Получить бесплатную консультацию</button> 
+                    </div>
+                </div>
+                <div class="d-none d-lg-block technologies__form--img-block text-center">
+                    <img src="img/technologies-block.png" class="technologies__form--img-block"  width="200" height="auto" alt="">
+                </div>
+            </div> 
+
+            <section class="objects">
+                <div class="container-fluid my-5">
+                    <p class="font-mr-30 text-center mb-4">Похожие проекты по площади</p>
+                    <div class="card__sl">
+                        <div class="sl__item px-lg-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <img src="img/object-1.png" width="100%" height="auto" alt="">
+                                    <div class="d-flex justify-content-between my-2">
+                                        <p class="font-mr-16">Проект 16-227 </p>
+                                        <div class="d-flex">
+                                            <img src="img/square.svg" width="24" height="14" alt="">
+                                            <p class="font-mr-16 green ml-3">227 м<sup>2</sup></p> 
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#" class="card__btn btn btn-outline-warning btn-lg text-center font-mm-12 black">Подробнее</a> 
+                        </div>
+                        <div class="sl__item px-lg-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <img src="img/object-1.png" width="100%" height="auto" alt="">
+                                    <div class="d-flex justify-content-between my-2">
+                                        <p class="font-mr-16">Проект 16-227 </p>
+                                        <div class="d-flex">
+                                            <img src="img/square.svg" width="24" height="14" alt="">
+                                            <p class="font-mr-16 green ml-3">227 м<sup>2</sup></p> 
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#" class="card__btn btn btn-outline-warning btn-lg text-center font-mm-12 black">Подробнее</a> 
+                        </div>
+                        <div class="sl__item px-lg-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <img src="img/object-1.png" width="100%" height="auto" alt="">
+                                    <div class="d-flex justify-content-between my-2">
+                                        <p class="font-mr-16">Проект 16-227 </p>
+                                        <div class="d-flex">
+                                            <img src="img/square.svg" width="24" height="14" alt="">
+                                            <p class="font-mr-16 green ml-3">227 м<sup>2</sup></p> 
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#" class="card__btn btn btn-outline-warning btn-lg text-center font-mm-12 black">Подробнее</a> 
+                        </div>
+                        <div class="sl__item px-lg-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <img src="img/object-1.png" width="100%" height="auto" alt="">
+                                    <div class="d-flex justify-content-between my-2">
+                                        <p class="font-mr-16">Проект 16-227 </p>
+                                        <div class="d-flex">
+                                            <img src="img/square.svg" width="24" height="14" alt="">
+                                            <p class="font-mr-16 green ml-3">227 м<sup>2</sup></p> 
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#" class="card__btn btn btn-outline-warning btn-lg text-center font-mm-12 black">Подробнее</a> 
+                        </div>
+                        <div class="sl__item px-lg-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <img src="img/object-1.png" width="100%" height="auto" alt="">
+                                    <div class="d-flex justify-content-between my-2">
+                                        <p class="font-mr-16">Проект 16-227 </p>
+                                        <div class="d-flex">
+                                            <img src="img/square.svg" width="24" height="14" alt="">
+                                            <p class="font-mr-16 green ml-3">227 м<sup>2</sup></p> 
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#" class="card__btn btn btn-outline-warning btn-lg text-center font-mm-12 black">Подробнее</a> 
+                        </div>   
+                    </div>    
+                </div>
+            </section>
+
+            <section class="order">
+                <div class="container-fluid">
+                    <p class="font-mr-30 text-center mb-4"><i>или</i></p>
+                    <div class="row my-4">
+                        <div class="col-1 pr-0">
+                            <picture>
+                                <source srcset="img/lane-green-1.png" width="6" height="90"  media="(min-width: 1200px)">
+                                <source srcset="img/lane-green-1.png" width="5" height="72"  media="(min-width: 768px)">
+                                <img src="img/lane-green-1.png" width="3" height="45" alt="">
+                            </picture>  
+                        </div>
+                        <div class="col-11 pl-0">
+                            <h2 class="section__title mb-4">Вы можете заказать <br><span class="green">индивидуальный проект</span></h2>   
+                            <p class="font-mm-16"><span class="green">Заполните форму </span>и мы расскажем вам, как вы можете получить готовый проект или разработку индивидуального проекта нашей командой архитекторов ― <span class="green">совершенно бесплатно!</span></p>
+                            <ul>
+                                <li class="font-mr-14 mb-2">Поможем определиться с концепцией, дадим рекомендации и покажем варианты, рассказав про нюансы и преимущества каждого</li>
+                                <li class="font-mr-14 mb-2">Примем оптимальные конструтивные решения строго по расчету</li>
+                                <li class="font-mr-14 mb-2">Обеспечим надёжность и реализуемость вашего проекта </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="order__card">
+                        <div class="card__top--yellow"></div>
+                        <div class="card">
+                            <div class="card-body pb-0">
+                                <form>
+                                    <div class="form-group">
+                                        <input type="name" class="form-control" placeholder="Имя">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="tel" class="form-control" placeholder="Телефон">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" placeholder="E-mail">
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea class="form-control" rows="3" placeholder="Ваши пожелания"></textarea>
+                                    </div>
+                                    <div class="row align-items-center mb-3">
+                                        <div class="col-7 col-md-6">
+                                            <button type="submit" class="order__card--btn btn btn-warning btn-lg text-center font-mm-12">Заказать проект</button>
+                                        </div>
+                                        <div class="col-5 col-md-6">
+                                            <button type="file" class="btn">
+                                                <div class="d-flex flex-column flex-md-row align-items-center">
+                                                    <img src="img/add-file.svg" width="20" height="auto" alt="">
+                                                    <p class="d-md-none font-mm-10 light-grey mb-0">Прикрепить файл</p>
+                                                    <p class="d-none d-md-block font-mm-10 light-grey ml-3 mb-0">Прикрепить файл с </br>эскизом/примером</p>
+                                                </div>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <p class="font-mm-10 text-center"> Нажимая на кнопку вы даёте согласие на <span class="green">обработку персональных данных</span></p>
+                                </form>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="form pb-5" style="max-width: 1600px; margin: auto;">
+                <div class="container-fluid">
+                    <div class="d-lg-none row my-4">
+                        <div class="col-1 pr-0">
+                            <picture>
+                                <source srcset="img/lane-green-1.png" width="6" height="90"  media="(min-width: 1200px)">
+                                <source srcset="img/lane-green-1.png" width="5" height="72"  media="(min-width: 768px)">
+                                <img src="img/lane-green-1.png" width="3" height="45" alt="">
+                            </picture>  
+                        </div>
+                        <div class="col-11 pl-0">
+                            <h2 class="section__title">Остались <br><span class="green">вопросы</span></h2>   
+                            <p class="font-mm-16">Оставляйте их нашему эксперту по строительству. Он свяжется с вами и ответит на все ваши вопросы.</p> 
+                        </div>
+                    </div>
+                    <div class="qa-form__card row">
+                        <div class="qa__img col-12 col-md-6 col-lg-5 order-md-2 pl-md-0">
+                            <picture>
+                                <source srcset="img/form-img-desktop.png" width="100%" height="auto" alt="" media="(min-width: 768px)">
+                                <img src="img/form-img-mobile.png" width="100%" height="auto" alt="">
+                            </picture> 
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-7 order-md-1 pr-md-0">
+                            <div class="d-none d-lg-block">
+                                <div class="row my-4">
+                                    <div class="col-1 pr-0">
+                                        <picture>
+                                            <source srcset="img/lane-green-1.png" width="6" height="90"  media="(min-width: 1200px)">
+                                            <source srcset="img/lane-green-1.png" width="5" height="72"  media="(min-width: 768px)">
+                                            <img src="img/lane-green-1.png" width="3" height="45" alt="">
+                                        </picture>  
+                                    </div>
+                                    <div class="col-11 pl-0">
+                                        <h2 class="section__title">Остались <br><span class="green">вопросы</span></h2>   
+                                        <p class="font-mm-16">Оставляйте их нашему эксперту по строительству. Он свяжется с вами и ответит на все ваши вопросы.</p> 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card__top--yellow"></div>
+                            <div class="card">
+                                <div class="card-body pb-0">
+                                    <form>
+                                        <div class="row">
+                                            <div class="col-12 col-lg-6">
+                                                <div class="form-group">
+                                                    <input type="name" class="form-control" placeholder="Имя">
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="tel" class="form-control" placeholder="Телефон">
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="email" class="form-control" placeholder="E-mail">
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-6">
+                                                <div class="form-group">
+                                                    <textarea class="form-control" rows="3" placeholder="Ваш вопрос"></textarea>
+                                                </div>
+                                                <div class="row align-items-center mb-3">
+                                                    <div class="col-7 col-md-6">
+                                                        <button type="submit" class="order__card--btn btn btn-warning btn-lg text-center font-mm-12">Задать вопрос</button>
+                                                    </div>
+                                                    <div class="col-5 col-md-6 pl-lg-0">
+                                                        <button type="file" class="btn">
+                                                            <div class="d-flex flex-column flex-md-row align-items-center">
+                                                                <img src="img/add-file.svg" width="20" height="auto" alt="">
+                                                                <p class="font-mm-10 light-grey ml-3 mb-0">Прикрепить файл</p>
+                                                            </div>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <p class="font-mm-10 text-center"> Нажимая на кнопку вы даёте согласие на <span class="green">обработку персональных данных</span></p>
+                                            </div>
+                                        </div>   
+                                    </form>  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="py-4" style="background: #FFFFFF;">
+            <section class="container-fluid">
+                <div class="row justify-content-between align-items-start">
+                    <div class="col-12 col-md-3 col-xl-auto mb-4 text-center text-md-left order-xl-1">
+                        <img src="img/logo-footer.svg" width="80" height="100" alt="">
+                    </div>
+                    <div class="col-12 col-md-5 col-xl-auto align-self-center mb-4 order-xl-4">
+                        <div class="d-flex justify-content-center">
+                            <a href="#" class="mr-3">
+                                <img src="img/youtube.svg" width="40" height="40" alt="">
+                            </a>
+                            <a href="#" class="mr-3">
+                                <img src="img/insta.svg" width="40" height="40" alt="">
+                            </a>
+                            <a href="#" class="mr-3">
+                                <img src="img/whatsapp.svg" width="40" height="40" alt="">
+                            </a>
+                            <a href="#" class="mr-3">
+                                <img src="img/vk.svg" width="40" height="40" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="img/telegram.svg" width="40" height="40" alt="">
+                            </a>
+                        </div>
+                        <div class="d-none d-xl-flex flex-column align-items-end">
+                            <p class="font-rb-22 text-center text-md-right green my-4">8(495)369-57-39</p>
+                            <button type="button" class="btn btn-warning btn-lg text-center font-mm-12">Заказать звонок</button>  
+                        </div>
+                    </div>
+                    <div class="d-xl-none col-12 col-md-4 text-center text-md-right order-xl-5">
+                        <p class="font-rb-22 green mb-4">8(495)369-57-39</p>
+                        <button type="button" class="btn btn-warning btn-lg text-center font-mm-12 mb-4">Заказать звонок</button>  
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-3 mt-3 mt-xl-0 order-xl-2">
+                        <p class="font-mr-16 light-grey">© 2007-2020 ООО "ДОМ ОТ ПРОФИ"</p>
+                        <p class="font-mr-16 light-grey">Строительство каменных домов </p>
+                        <p class="font-mr-16 light-grey">ИНН 5029241054   ОГРН 1195081008980</p>
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-3 mt-3 mt-xl-0 order-xl-3">
+                        <p class="font-mr-16 light-grey">Политика конфиденциальности</p>
+                        <p class="font-mr-16 light-grey">Пользовательское соглашение</p>
+                        <p class="font-mr-16 light-grey">Договор оферты</p>
+                    </div>
+                    <div class="col-12 text-md-left mt-3 order-xl-6">
+                        <p class="font-mr-16 light-grey">Обращаем ваше внимание на то, что данный интернет-сайт носит исключительно информационный характер и ни при каких условиях не является публичной офертой, определяемой положениями Статьи 437 (2) Гражданского кодекса Российской Федерации. Для получения подробной информации о наличии и стоимости указанных товаров и (или) услуг, пожалуйста, обращайтесь к менеджеру сайта с помощью специальной формы связи или по телефону в Москве +7 (495) 369-57-39</p>
+                    </div>
+                </div>
+            </section>
+        </footer>
+
+    </body>
+
+    <script src="js/main.js"></script>
+
+</html>
