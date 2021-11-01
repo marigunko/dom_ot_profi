@@ -3,6 +3,26 @@
 .objects__card--btn {
     position: relative;
     top: -1rem;
+    margin: 0 0.4rem;
+}
+
+.objects__card--btn-yellow {
+    color: #212529;
+    background: #FFC900;
+    border: none;
+    padding: 0.6rem 0.8rem;
+    -webkit-box-shadow: 0px 4px 25px rgba(247, 206, 52, 0.7), inset 0px 0px 20px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 4px 25px rgba(247, 206, 52, 0.7), inset 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.objects__card--btn-green {
+    color: #FFFFFF;
+    background: #1A9F29;
+    border: none;
+    padding: 0.6rem 0.8rem;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3), inset 0px 0px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
 }
 
 .objects__nav {
@@ -21,4 +41,50 @@
     border: 1px solid #1A9F29;
     border-radius: 3px;
     box-shadow: none;
+}
+
+.objects__card--1 {
+    width: 100%;
+}
+
+.objects__card--2,
+.objects__card--3,
+.objects__card--4 {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .objects__card--2 {
+        display: block;
+    }
+
+    .objects__card--1,
+    .objects__card--2 {
+        width: 50%;
+    }
+}
+
+@media (min-width: 992px) {
+    .objects__card--3 {
+        display: block;
+    }
+
+    .objects__card--1,
+    .objects__card--2,
+    .objects__card--3 {
+        width: 33%;
+    }
+}
+
+@media (min-width: 1600px) {
+    .objects__card--4 {
+        display: block;
+    }
+
+    .objects__card--1,
+    .objects__card--2,
+    .objects__card--3,
+    .objects__card--4 {
+        width: 25%;
+    }
 }
