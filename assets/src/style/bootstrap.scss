@@ -1,5 +1,10 @@
 /*BOOTSTRAP*/
 
+.container-fluid {
+    max-width: 1900px; 
+    margin: 0 auto;
+}
+
 .btn,
 .btn:hover,
 .btn:focus,
@@ -39,14 +44,18 @@
     border: none;
     -webkit-box-shadow: 0px 5px 25px rgba(247, 206, 52, 0.7);
             box-shadow: 0px 5px 25px rgba(247, 206, 52, 0.7);
+    border-radius: 8px;
 }
 
-.btn-warning:active {
+p .btn-warning,
+p .btn-warning:hover,
+p .btn-warning:active {
     color: #212529;
-    background: #FFC900;
+    background: #F7CE34;
     border: none;
-    -webkit-box-shadow: 0px 4px 25px rgba(247, 206, 52, 0.7), inset 0px 0px 20px rgba(0, 0, 0, 0.1);
-            box-shadow: 0px 4px 25px rgba(247, 206, 52, 0.7), inset 0px 0px 20px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0px 5px 25px rgba(247, 206, 52, 0.7);
+            box-shadow: 0px 5px 25px rgba(247, 206, 52, 0.7);
+    border-radius: 8px;
 }
 
 .btn-outline-warning:hover {

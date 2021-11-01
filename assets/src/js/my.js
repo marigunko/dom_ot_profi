@@ -1,16 +1,3 @@
-$(document).ready(function(){
-    $(".fa-search").click(function(){
-      $(".fa-search, form").toggle();
-    });
-  
-    $("#close-s").click(function(){
-      $(".fa-search, form").toggle();
-      $("form")[0].reset(); /* put #search or .searchBar */
-    });
-    
-  });
-
-
 //Slider
 
 
