@@ -80,10 +80,8 @@
 }
 
 .house__sl,
-.tab-1__sl--mobile,
-.tab-1__sl--desktop,
-.tab-2__sl,
-.history__sl {
+.tab-1__sl,
+.tab-2__sl {
     .slick-prev,
     .slick-prev:before,
     .slick-prev:focus {
@@ -195,8 +193,7 @@
 
 .house__sl,
 .tab-1__sl--desktop,
-.tab-2__sl,
-.history__sl {
+.tab-2__sl {
     .slick-dots {
         bottom: 13px;
     }

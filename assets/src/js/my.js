@@ -141,15 +141,11 @@ $('.nav-tabs .sl__item').click(function() {
     $('.nav-tabs .sl__item').removeClass('active');
 });
 
-
-$('.tab-1__sl--mobile').slick({
-    dots: true, 
+$('.tab-1__sl').slick({
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    arrows: true,
 });
-
-
-$('.tab-1__sl--desktop').slick({
-});
-
 
 $('.tab-2__sl').slick({
     responsive: [
@@ -180,33 +176,39 @@ $('.card__sl').slick({
 });
 
 
-$('.history__sl').slick({
-	arrows: true,
-    
-    responsive: [
-        {
-            breakpoint: 768,
-            settings: {
-                dots: true,
-                arrows: false,
-            }
-        }
-    ]
-})
 
-$('.slider-for-1').slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    arrows: false,
-    fade: true,
-    adaptiveHeight: true,
-    asNavFor: '.slider-nav-1',
+$("#carouselIndicators1, #carouselIndicators2, #carouselIndicators3, #carouselIndicators4").carousel({
+    interval : false
 });
 
-$('.slider-nav-1').slick({
-    slidesToShow: 2,
-    slidesToScroll: 1,
-    arrows: false,
-    asNavFor: '.slider-for-1',
-    focusOnSelect: true
+
+
+//Fix tab-pane height
+var maxHeight = 0;
+
+$(".carousel-inner1").each(function(){
+  if ( $(this).height() > maxHeight ) {
+    maxHeight = $(this).height();
+  }
 });
+ 
+$(".carousel-inner1").height(maxHeight);
+
+$(window).resize(function(){ 
+});
+
+
+var maxHeight = 0;
+
+$(".carousel-inner2").each(function(){
+    if ( $(this).height() > maxHeight ) {
+      maxHeight = $(this).height();
+    }
+  });
+   
+  $(".carousel-inner2").height(maxHeight);
+  
+  $(window).resize(function(){ 
+});
+
+
