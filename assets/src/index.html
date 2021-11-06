@@ -1863,9 +1863,10 @@
             </section>
 
             <section class="catalog">
+                <img src="img/catalog-translucent.png" class="catalog__img--block" width="600" height="auto" alt="">
                 <div class="container-fluid">
-                    <div class="row mt-5">
-                        <div class="col-12 col-md-7">
+                    <div class="row">
+                        <div class="col-12 col-lg-6 mt-5">
                             <div class="row">
                                 <div class="col-1 pr-0">
                                     <picture>
@@ -1877,21 +1878,53 @@
                                 <div class="col-11 pl-0">
                                     <h2 class="section__title">Больше домов в <span class="green">полном <br>каталоге </span>наших проектов</h2> 
                                     <p class="font-mm-16">Самая <span class="green">подробная </span>и <span class="green">актуальная информация </span>по всем нашим проектам <span class="green">в одном месте</span></p> 
-                                    <div class="d-flex">
-                                        <button type="button" class="btn btn-warning btn-lg text-center font-mm-12">Скачать каталог</button>
-                                        <div class="d-flex align-items-center">
-                                            <p class="font-mm-16 grey mx-3 mb-0">в формате </p>
-                                            <img src="img/catalog-download-file.png" width="40" height="47" alt="">
+                                    <div class="d-none d-lg-flex mt-3 mb-5">
+                                        <button type="button" class="btn btn-warning btn-lg text-center font-mm-12 py-0 py-md-3">
+                                            <div class="d-flex align-items-center">
+                                                <p class="font-mm-16 grey mr-3 mb-0">Скачать каталог</p>
+                                                <img src="img/arrow-download.svg" width="22" height="24" alt=""> 
+                                            </div>
+                                        </button>
+                                        <div class="d-flex">
+                                            <div class="d-flex align-items-center">
+                                                <p class="font-mm-16 grey mx-3 mb-0">в формате </p>
+                                                <img src="img/catalog-download-file.png" width="40" height="47" alt="">
+                                            </div>
                                         </div>
                                     </div> 
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-md-5">
-                            <img src="img/catalog.png" width="100%" height="auto" alt="">
+                        <div class="col-12 col-lg-6 px-5 px-lg-0">
+                            <picture>
+                                <source srcset="img/catalog.png" width="100%" height="auto" media="(min-width: 992px)">
+                                <source srcset="img/catalog-tablet.png" width="100%" height="auto" media="(min-width: 768px)">
+                                <img src="img/catalog-mobile.png" width="100%" height="auto" alt="">
+                            </picture>  
                         </div>
                     </div>
-                    
+                    <div class="d-flex d-md-none justify-content-center mb-5">
+                        <button type="button" class="btn btn-warning btn-lg text-center font-mm-12 py-0 py-md-3">
+                            <div class="d-flex align-items-center">
+                                <p class="font-mm-16 grey mr-3 mb-0">Скачать каталог</p>
+                                <img class="catalog-download-file__img" src="img/catalog-download-file.png" width="40" height="47" alt=""> 
+                            </div>
+                        </button>
+                    </div> 
+                    <div class="catalog__btn--tablet d-none d-md-flex d-lg-none justify-content-around">
+                        <button type="button" class="btn btn-warning btn-lg text-center font-mm-12 py-0 py-md-3">
+                            <div class="d-flex align-items-center">
+                                <p class="font-mm-16 grey mr-3 mb-0">Скачать каталог</p>
+                                <img src="img/arrow-download.svg" width="22" height="24" alt=""> 
+                            </div>
+                        </button>
+                        <div class="d-flex">
+                            <div class="d-flex align-items-center">
+                                <p class="font-mm-16 grey mx-3 mb-0">в формате </p>
+                                <img src="img/catalog-download-file.png" width="40" height="47" alt="">
+                            </div>
+                        </div>
+                    </div>     
                 </div>
             </section>
 
