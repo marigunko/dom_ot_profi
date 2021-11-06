@@ -152,6 +152,16 @@ p .btn-warning:active {
     margin-left: auto;
 }
 
+@media (max-width: 767.98px) {
+    .navbar-expand-md>.container, .navbar-expand-md>.container-fluid, .navbar-expand-md>.container-lg, .navbar-expand-md>.container-md, .navbar-expand-md>.container-sm, .navbar-expand-md>.container-xl {
+        width: 100%;
+        padding-right: 20px;
+        padding-left: 20px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
 @media (min-width: 768px) {
     .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
         width: 100%;

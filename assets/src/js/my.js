@@ -1,3 +1,10 @@
+
+jQuery(function(){
+    jQuery(".search__btn--open").click(function () {
+      jQuery(".search__form").toggle("slow");
+    });
+  });
+
 //Slider
 
 
