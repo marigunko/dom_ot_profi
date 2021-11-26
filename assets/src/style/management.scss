@@ -1,5 +1,12 @@
 /*MANAGEMENT*/
 
-.management__img {
-    margin: auto;
+.management__sl--img {
+    -webkit-box-shadow: 0px -15px 10px 10px rgba(255, 235, 153, 1);
+    -moz-box-shadow: 0px -15px 10px 10px rgba(255, 235, 153, 1);
+    box-shadow: 0px -15px 10px 10px rgba(255, 235, 153, 1);
+    border-radius: 10px;
+}
+
+.management__count {
+    padding: 2.3rem 0 1rem;
 }

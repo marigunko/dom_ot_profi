@@ -129,6 +129,82 @@
     }
 }
 
+.management__sl--img {
+    .slick-prev,
+    .slick-next {
+        top: auto;
+        bottom: -50px;
+        -webkit-transform: translate(0, 50%);
+        -ms-transform: translate(0, 50%);
+        transform: translate(0, 50%);
+    }
+    
+    .slick-prev,
+    .slick-prev:before,
+    .slick-prev:focus {
+        left: auto;
+        right: 65%;
+    }
+    
+    .slick-prev:hover {
+        left: auto;
+        right: 63%;
+    }
+    
+    .slick-next,
+    .slick-next:before,
+    .slick-next:focus {
+        right: auto;
+        left: 65%;
+    }
+    
+    
+    .slick-next:hover {
+        right: auto;
+        left: 63%;
+    }
+
+}
+
+.team__sl {
+    .slick-prev,
+    .slick-next {
+        top: auto;
+        bottom: -15px;
+        -webkit-transform: translate(0, 50%);
+        -ms-transform: translate(0, 50%);
+        transform: translate(0, 50%);
+    }
+    
+    .slick-prev,
+    .slick-prev:before,
+    .slick-prev:focus {
+        left: auto;
+        right: 60%;
+    }
+    
+    .slick-prev:hover {
+        left: auto;
+        right: 59%;
+    }
+    
+    .slick-next,
+    .slick-next:before,
+    .slick-next:focus {
+        right: auto;
+        left: 60%;
+    }
+    
+    
+    .slick-next:hover {
+        right: auto;
+        left: 59%;
+    }
+
+}
+
+
+
 /* Dots */
 
 .slick-dotted.slick-slider {

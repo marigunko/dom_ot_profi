@@ -1,10 +1,3 @@
-
-jQuery(function(){
-    jQuery(".search__btn--open").click(function () {
-      jQuery(".search__form").toggle("slow");
-    });
-  });
-
 //Slider
 
 
@@ -15,34 +8,40 @@ $('.technologies__sl').slick({
     adaptiveHeight: true
 });
 
-
 $(function(){
-    $('.management__sl').slick();
+    $('.management__sl--img').slick({
+        arrows: true,
+        fade: true,
+        asNavFor: '.management__sl--desc'
+    });
+    $(".management__sl--desc").on('afterChange', function(event, slick, currentSlide){
+        $("#management__sl--number").text(currentSlide + 1);
+    });
+    $('.management__sl--desc').slick({
+        asNavFor: '.management__sl--img',
+        arrows: false,
+        focusOnSelect: true
+    });
 });
 
 
-$('.team__sl').slick({
-    slidesToShow: 3,
-    slidesToScroll: 3,
-    responsive: [
-        {
-            breakpoint: 992,
-            settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2
+$(function(){
+    $('.team__sl').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
             }
-          },
-          {
-            breakpoint: 768,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                dots: true,
-                arrows: false
-                
-            }
-          }
-    ]
+        ]
+    });
+    $(".team__sl").on('afterChange', function(event, slick, currentSlide){
+        $("#team__sl--number").text(currentSlide + 1);
+    });
 });
 
 
@@ -219,3 +218,9 @@ $(".carousel-inner2").each(function(){
 });
 
 
+
+jQuery(function(){
+    jQuery(".search__btn--open").click(function () {
+      jQuery(".search__form").toggle("slow");
+    });
+});
