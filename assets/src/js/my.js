@@ -47,38 +47,28 @@ $(function(){
 
 $('.certificates__sl').slick({
     slidesToShow: 4,
-    slidesToScroll: 4,
+    slidesToScroll: 1,
     responsive: [
         {
             breakpoint: 992,
             settings: {
                 slidesToShow: 3,
-                slidesToScroll: 3
+                slidesToScroll: 1,
             }
         },
         {
             breakpoint: 768,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-            }
+            settings: 'unslick'
+            
         }
     ]
 });
 
-
-$('.reviews__sl').slick({
-	dots: false,
-	arrows: true,
-    responsive: [
-        {
-            breakpoint: 768,
-            settings: {
-                dots: true,
-                arrows: false
-            }
-        }
-    ]
+$(function(){
+    $('.reviews__sl').slick();
+    $(".reviews__sl__sl").on('afterChange', function(event, slick, currentSlide){
+        $("#reviews__sl__sl--number").text(currentSlide + 1);
+    });
 });
 
 

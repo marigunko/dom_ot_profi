@@ -2657,9 +2657,9 @@
             <div class="common-background">
                 <section class="certificates">
                     <div class="container-fluid">
-                        <div class="row py-4">
-                            <div class="col-12 col-md-5">
-                                <div class="row">
+                        <div class="row pt-4">
+                            <div class="col-12 col-md-5 col-lg-4">
+                                <div class="row py-4">
                                     <div class="col-auto px-3">
                                         <picture>
                                             <source srcset="img/lane-green-1.png" width="6" height="90"  media="(min-width: 1200px)">
@@ -2673,24 +2673,32 @@
                                     </div>
                                 </div>  
                             </div>
-                            <div class="col-12 col-md-7">
-                                <div class="certificates__sl">
-                                    <div>
+                            <div class="col-12 col-md-7 col-lg-8">
+                                <div class="certificates__sl row pr-lg-5">
+                                    <div class="col-6 col-md-4 col-lg-auto p-0">
                                         <img src="img/certificate-1.png" width="100%" height="auto" alt="">
                                     </div>
-                                    <div>
+                                    <div class="col-6 col-md-4 col-lg-auto p-0">
                                         <img src="img/certificate-2.png" width="100%" height="auto" alt="">
                                     </div>
-                                    <div>
+                                    <div class="col-6 col-md-4 col-lg-auto p-0">
                                         <img src="img/certificate-3.png" width="100%" height="auto" alt="">
                                     </div>
-                                    <div>
+                                    <div class="col-6 d-md-none d-lg-block col-lg-auto p-0">
                                         <img src="img/certificate-4.png" width="100%" height="auto" alt="">
+                                    </div>
+                                    <div class="d-none d-lg-block col-lg-auto p-0">
+                                        <img src="img/certificate-2.png" width="100%" height="auto" alt="">
+                                    </div>
+                                    <div class="d-none d-lg-block col-lg-auto p-0">
+                                        <img src="img/certificate-3.png" width="100%" height="auto" alt="">
                                     </div>
                                 </div> 
                             </div>
                         </div>  
-                        <button type="submit" class="d-md-none btn btn-warning btn-block btn-lg text-center font-mm-12 mt-4">Показать все сертификаты</button> 
+                        <div class="text-center">
+                            <button type="submit" class="d-md-none btn btn-warning btn-lg text-center font-mm-12 my-4">Показать все сертификаты</button> 
+                        </div>
                     </div>
                 </section>
     
@@ -2708,9 +2716,9 @@
                                 <h2 class="section__title"><span class="green">Отзывы </span>наших <br>клиентов</span></h2>  
                             </div>
                         </div>
-                        <div class="reviews__sl">
-                            <div class="sl__item reviews__sl--item p-3">
-                                <div class="card mb-3" style="max-width: 708px; margin: auto;">
+                        <div class="reviews__sl mb-3 mb-md-0">
+                            <div class="sl__item px-3">
+                                <div class="reviews__sl--item card mb-3">
                                     <div class="row no-gutters">
                                         <div class="col-md-5 align-self-center">
                                             <img src="img/reviews-img.png" width="100%" height="auto" alt="">
@@ -2731,8 +2739,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="sl__item reviews__sl--item p-3">
-                                <div class="card mb-3" style="max-width: 708px; margin: auto;">
+                            <div class="sl__item px-3">
+                                <div class="reviews__sl--item card mb-3">
                                     <div class="row no-gutters">
                                         <div class="col-md-5 align-self-center">
                                             <img src="img/reviews-img.png" width="100%" height="auto" alt="">
@@ -2754,8 +2762,11 @@
                                 </div>
                             </div>   
                         </div>
+                        <div class="d-md-none reviews__count text-center pb-5">
+                            <span id="reviews__sl--number" class="font-mr-24 green">1</span><span class="font-mr-24 light-grey"><sub>&nbsp;/&nbsp;10</sub></span>
+                        </div>
                         <div class="text-center">
-                            <a href="#" class="btn btn-warning btn-lg text-center font-mm-12">Показать все отзывы</a>
+                            <a href="#" class="btn btn-warning btn-lg text-center font-mm-12 my-md-3">Показать все отзывы</a>
                         </div>  
                     </div>
                 </section>
@@ -2894,14 +2905,12 @@
                                     <p class="font-mr-16">Приглашаем вас на экскурсию по нашему выставочному дому-офису.</p>
                                     <p class="font-mr-16">В вопросах строительства очень важна “насмотренность”, чтобы оценить объёмы и формы вживую.</p>
                                     <p class="font-mr-16">Кроме нашего офиса в нашем посёлке есть несколько наших обьектов на разных этапах строительства.</p>
-                                    <p class="font-mr-16"><span class="green">Записывайтесь на экскурсию, </span>мы с удовольствием вам её проведём!</p>   
-
-                                        <button type="button" class="btn btn-warning btn-lg text-center font-mm-12 my-2">Записаться на экскурсию</button> 
-                                        <div class="d-flex mt-3">
-                                            <img src="img/pin.svg" width="20" height="30" alt="">
-                                            <p class="font-mr-16 ml-3">АДРЕС: Московская обл., Пушкинский р-н, <br>пос.Левково, КП "Левково3" , стр.23, уч. 318 офис</p>
-                                        </div>
-
+                                    <p class="font-mr-16"><span class="green">Записывайтесь на экскурсию, </span>мы с удовольствием вам её проведём!</p>
+                                    <button type="button" class="btn btn-warning btn-lg text-center font-mm-12 my-2">Записаться на экскурсию</button> 
+                                    <div class="d-flex mt-3">
+                                        <img src="img/pin.svg" width="20" height="30" alt="">
+                                        <p class="font-mr-16 ml-3">АДРЕС: Московская обл., Пушкинский р-н, <br>пос.Левково, КП "Левково3" , стр.23, уч. 318 офис</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -2920,7 +2929,7 @@
                                     <img src="img/office-2.png" width="100%" height="auto" alt="">
                                 </div>
                             </div>
-                            <div class="slider-nav">
+                            <div class="slider-nav pr-5">
                                 <div class="sl_item p-2">
                                     <img src="img/office-1.png" width="100%" height="auto" alt="">
                                 </div>
@@ -3064,15 +3073,19 @@
                         <p class="font-rb-22 green mb-4">8(495)369-57-39</p>
                         <button type="button" class="btn btn-warning btn-lg text-center font-mm-12 mb-4">Заказать звонок</button>  
                     </div>
-                    <div class="col-12 col-md-6 col-xl-3 mt-3 mt-xl-0 order-xl-2">
-                        <p class="font-mr-16 light-grey">© 2007-2020 ООО "ДОМ ОТ ПРОФИ"</p>
-                        <p class="font-mr-16 light-grey">Строительство каменных домов </p>
-                        <p class="font-mr-16 light-grey">ИНН 5029241054   ОГРН 1195081008980</p>
-                    </div>
-                    <div class="col-12 col-md-6 col-xl-3 mt-3 mt-xl-0 order-xl-3">
-                        <a href="#"><p class="font-mr-16 light-grey">Политика конфиденциальности</p></a>
-                        <a href="#"><p class="font-mr-16 light-grey">Пользовательское соглашение</p></a>
-                        <a href="#"><p class="font-mr-16 light-grey">Договор оферты</p></a>
+                    <div class="col-12 col-xl-6 mt-3 mt-xl-0 order-xl-2">
+                        <div class="row">
+                            <div class="col-12 col-md-6 mb-3">
+                                <p class="font-mr-16 light-grey">© 2007-2020 ООО "ДОМ ОТ ПРОФИ"</p>
+                                <p class="font-mr-16 light-grey">Строительство каменных домов </p>
+                                <p class="font-mr-16 light-grey">ИНН 5029241054   ОГРН 1195081008980</p>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <a href="#"><p class="font-mr-16 light-grey">Политика конфиденциальности</p></a>
+                                <a href="#"><p class="font-mr-16 light-grey">Пользовательское соглашение</p></a>
+                                <a href="#"><p class="font-mr-16 light-grey">Договор оферты</p></a>
+                            </div>
+                        </div>   
                     </div>
                     <div class="col-12 text-md-left mt-3 order-xl-6">
                         <p class="font-mr-16 light-grey">Обращаем ваше внимание на то, что данный интернет-сайт носит исключительно информационный характер и ни при каких условиях не является публичной офертой, определяемой положениями Статьи 437 (2) Гражданского кодекса Российской Федерации. Для получения подробной информации о наличии и стоимости указанных товаров и (или) услуг, пожалуйста, обращайтесь к менеджеру сайта с помощью специальной формы связи или по телефону в Москве +7 (495) 369-57-39</p>

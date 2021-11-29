@@ -203,6 +203,78 @@
 
 }
 
+.certificates__sl,
+.slider-nav {
+    .slick-prev {
+        display: none;
+    }
+}
+
+.reviews__sl {
+    .slick-prev,
+    .slick-prev:before,
+    .slick-prev:focus {
+        content: '';
+        left: -20px;
+    }
+    
+    .slick-prev:hover {
+        content: '';
+        left: -33px;
+    }
+    
+    .slick-next,
+    .slick-next:before,
+    .slick-next:focus {
+        content: '';
+        right: -20px;
+    }
+    
+    .slick-next:hover {
+        content: '';
+        right: -33px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .reviews__sl {
+        .slick-prev,
+        .slick-next {
+            top: auto;
+            bottom: -30px;
+            -webkit-transform: translate(0, 50%);
+            -ms-transform: translate(0, 50%);
+            transform: translate(0, 50%);
+        }
+        
+        .slick-prev,
+        .slick-prev:before,
+        .slick-prev:focus {
+            left: auto;
+            right: 65%;
+        }
+        
+        .slick-prev:hover {
+            left: auto;
+            right: 63%;
+        }
+        
+        .slick-next,
+        .slick-next:before,
+        .slick-next:focus {
+            right: auto;
+            left: 65%;
+        }
+        
+        
+        .slick-next:hover {
+            right: auto;
+            left: 63%;
+        }
+    
+    }
+}
+
 
 
 /* Dots */
