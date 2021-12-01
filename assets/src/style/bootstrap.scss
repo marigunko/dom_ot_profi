@@ -228,7 +228,7 @@ label {
 .form-control {
     display: block;
     width: 100%;
-    height: calc(1.5em + .75rem + 2px);
+    height: calc(2em + .75rem + 2px);
     padding: .375rem .75rem;
     font-size: 0.75rem;
     font-weight: 400;
@@ -266,7 +266,7 @@ label {
  color: #108534;
 }
 
-.modal-backdrop {
+.advantages__modal .modal-backdrop {
     background-color: transparent;
 }
 
@@ -274,11 +274,11 @@ label {
     border: none;
 }
 
-.modal {
+.advantages__modal .modal {
     position: fixed;
     top: 45px;
     left: 0;
-    z-index: 1050;
+    z-index: 10050;
     display: none;
     width: 100%;
     height: 100%;
@@ -286,8 +286,46 @@ label {
     outline: 0;
 }
 
-.modal-dialog {
+.advantages__modal .modal-dialog {
     margin: 1.2rem;
+}
+
+.filter__modal .modal-dialog  {
+    max-width: 90%;
+    margin: auto;
+}
+
+.filter__modal--success .modal-dialog  {
+    max-width: 80%;
+    margin: auto;
+}
+
+@media (min-width: 576px) {
+    .filter__modal .modal-dialog  {
+        max-width: 90%;
+        margin: auto;
+    }
+
+    .filter__modal--success .modal-dialog  {
+        max-width: 50%;
+        margin: auto;
+    }
+}
+
+@media (min-width: 1200px) {
+    .filter__modal .modal-dialog  {
+        max-width: 1100px;
+    }
+
+    .filter__modal--success .modal-dialog  {
+        max-width: 500px;
+        margin: auto;
+    }
+}
+
+.filter__modal .modal-content {
+    border-top: 12px solid #FFEFB2;
+    border-radius: 8px;
 }
 
 .breadcrumb-item.active {

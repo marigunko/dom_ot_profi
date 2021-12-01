@@ -186,19 +186,170 @@
                                     </table> 
                                     <div class="row">
                                         <div class="col-8 col-md-4 order-md-4 mb-2">
-                                            <a href="#" class="btn btn-block btn-outline-warning btn-lg text-center font-mm-12 black mb-3">Заказать проект</a>  
+                                            <button type="button" class="btn btn-block btn-outline-warning btn-lg text-center font-mm-12 black mb-3" data-toggle="modal" data-target="#modal1">Заказать проект</button>  
+                                            <div class="modal fade filter__modal" id="modal1" tabindex="-1" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered">
+                                                    <div class="modal-content">
+                                                        <div class="modal-body p-4">
+                                                            <form class="px-lg-5">
+                                                                <div class="row">
+                                                                    <div class="col-12 col-lg-6">
+                                                                        <div class="form-group pt-2">
+                                                                            <input type="name" class="form-control" placeholder="Имя">
+                                                                        </div>
+                                                                        <div class="form-group pt-2">
+                                                                            <input type="tel" class="form-control" placeholder="Телефон">
+                                                                        </div>
+                                                                        <div class="form-group pt-2">
+                                                                            <input type="email" class="form-control" placeholder="E-mail">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-12 col-lg-6 pt-2 pt-lg-0">
+                                                                        <div class="form-group">
+                                                                            <textarea class="form-control" rows="5" placeholder="Сюда можете написать свои пожелания, комментарий или ссылку на понравившийся Вам проект из интернета"></textarea>
+                                                                        </div>
+                                                                        <div class="row align-items-center">
+                                                                            <div class="col-7 col-md-7">
+                                                                                <button type="button" class="btn btn-warning btn-block btn-lg text-center font-mm-12" data-toggle="modal" data-target="#modal4">Оставить заявку</button>  
+                                                                            </div>
+                                                                            <div class="col-5 col-md-5 pl-lg-0 pt-3 pt-lg-2">
+                                                                                <div class="input__wrapper">
+                                                                                    <input name="file" type="file" name="file" id="input__file" class="input input__file" multiple>
+                                                                                    <label for="input__file" class="d-flex">
+                                                                                       <img src="img/add-file.svg" width="25" height="auto" alt="">
+                                                                                       <p class="font-mm-10 light-grey text-center align-self-center ml-3 mb-0">Прикрепить файл проекта (если есть)</p>
+                                                                                    </label>
+                                                                                 </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="modal fade filter__modal--success" id="modal4" tabindex="-1" aria-hidden="true">
+                                                                            <div class="modal-dialog modal-dialog-centered">
+                                                                                <div class="modal-content">
+                                                                                    <div class="modal-body text-center p-4">
+                                                                                        <picture>
+                                                                                            <source srcset="img/modal-sucсess.svg" width="80" height="80"  media="(min-width: 992px)">
+                                                                                            <img src="img/modal-sucсess.svg" width="40" height="auto" alt="">
+                                                                                        </picture>  
+                                                                                        <p class="font-rr-26 text-center green mt-3">Заявка отправлена!</p>
+                                                                                        <p class="font-rr-14 text-center">Пожалуйста ожидайте наш звонок</p>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>   
+                                                            </form>
+                                                            <p class="font-mm-10 text-center mt-3 mb-0"> Нажимая на кнопку вы даёте согласие на <a href="#" class="green-link">обработку персональных данных</a></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div> 
                                         </div>
                                         <div class="col-4 col-md-4 order-md-1">
                                             <img class="feature__img feature__img--1" src="img/order-project.png" width="70" height="auto" alt="">   
                                         </div>
                                         <div class="col-8 col-md-4 order-md-5 mb-2">
-                                            <a href="#" class="btn btn-block btn-outline-warning btn-lg text-center font-mm-12 black mb-3">Посетить объект</a>
+                                            <button type="button" class="btn btn-block btn-outline-warning btn-lg text-center font-mm-12 black mb-3" data-toggle="modal" data-target="#modal2">Посетить объект</button>
+                                            <div class="modal fade filter__modal" id="modal2" tabindex="-1" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered">
+                                                    <div class="modal-content">
+                                                        <div class="modal-body p-4">
+                                                            <p class="font-rr-30 text-center">Оставьте свои данные и мы свяжемся с вами <span class="green">для проведения <br>экскурсии </span>для вас <span class="green">по нашим домам</span></p>
+                                                            <form class="px-lg-5">
+                                                                <div class="d-flex flex-column flex-lg-row">
+                                                                    <div class="form-group col-12 col-lg-4 pt-3">
+                                                                        <input type="name" class="form-control" placeholder="Имя">
+                                                                    </div>
+                                                                    <div class="form-group col-12 col-lg-4 pt-3">
+                                                                        <input type="tel" class="form-control" placeholder="Телефон">
+                                                                    </div>
+                                                                    <div class="col-12 col-lg-4">
+                                                                        <button type="button" class="btn btn-warning btn-block btn-lg text-center font-mm-12 mt-3" data-toggle="modal" data-target="#modal5">Записаться на экскурсию</button>  
+                                                                        <div class="modal fade filter__modal--success" id="modal5" tabindex="-1" aria-hidden="true">
+                                                                            <div class="modal-dialog modal-dialog-centered">
+                                                                                <div class="modal-content">
+                                                                                    <div class="modal-body text-center p-4">
+                                                                                        <picture>
+                                                                                            <source srcset="img/modal-sucсess.svg" width="80" height="80"  media="(min-width: 992px)">
+                                                                                            <img src="img/modal-sucсess.svg" width="40" height="auto" alt="">
+                                                                                        </picture>  
+                                                                                        <p class="font-rr-26 text-center green mt-3">Заявка оформлена!</p>
+                                                                                        <p class="font-rr-14 text-center">Пожалуйста ожидайте наш звонок</p>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div> 
+                                                                </div>
+                                                            </form>
+                                                            <p class="font-mm-10 text-center mt-3 mb-0"> Нажимая на кнопку вы даёте согласие на <a href="#" class="green-link">обработку персональных данных</a></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                         <div class="col-4 col-md-4 order-md-2">
                                             <img class="feature__img feature__img--2" src="img/visit-object.png" width="70" height="auto" alt="">   
                                         </div>
                                         <div class="col-8 col-md-4 order-md-6 mb-2">
-                                            <a href="#" class="btn btn-block btn-outline-warning btn-lg text-center font-mm-12 black mb-3">Изменить проект </a> 
+                                            <button type="button" class="btn btn-block btn-outline-warning btn-lg text-center font-mm-12 black mb-3" data-toggle="modal" data-target="#modal3">Изменить проект</button> 
+                                            <div class="modal fade filter__modal" id="modal3" tabindex="-1" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered">
+                                                    <div class="modal-content">
+                                                        <div class="modal-body p-4">
+                                                            <form class="px-lg-5">
+                                                                <div class="row">
+                                                                    <div class="col-12 col-lg-6">
+                                                                        <div class="form-group pt-2">
+                                                                            <input type="name" class="form-control" placeholder="Имя">
+                                                                        </div>
+                                                                        <div class="form-group pt-2">
+                                                                            <input type="tel" class="form-control" placeholder="Телефон">
+                                                                        </div>
+                                                                        <div class="form-group pt-2">
+                                                                            <input type="email" class="form-control" placeholder="E-mail">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-12 col-lg-6 pt-2 pt-lg-0">
+                                                                        <div class="form-group">
+                                                                            <textarea class="form-control" rows="5" placeholder="Сюда можете написать свои пожелания, комментарий или ссылку на понравившийся Вам проект из интернета"></textarea>
+                                                                        </div>
+                                                                        <div class="row align-items-center">
+                                                                            <div class="col-7 col-md-7">
+                                                                                <button type="button" class="btn btn-warning btn-block btn-lg text-center font-mm-12" data-toggle="modal" data-target="#modal6">Оставить заявку</button>  
+                                                                            </div>
+                                                                            <div class="col-5 col-md-5 pl-lg-0 pt-3 pt-lg-2">
+                                                                                <div class="input__wrapper">
+                                                                                    <input name="file" type="file" name="file" id="input__file" class="input input__file" multiple>
+                                                                                    <label for="input__file" class="d-flex">
+                                                                                       <img src="img/add-file.svg" width="25" height="auto" alt="">
+                                                                                       <p class="font-mm-10 light-grey text-center align-self-center ml-3 mb-0">Прикрепить файл проекта (если есть)</p>
+                                                                                    </label>
+                                                                                 </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="modal fade filter__modal--success" id="modal6" tabindex="-1" aria-hidden="true">
+                                                                            <div class="modal-dialog modal-dialog-centered">
+                                                                                <div class="modal-content">
+                                                                                    <div class="modal-body text-center p-4">
+                                                                                        <picture>
+                                                                                            <source srcset="img/modal-sucсess.svg" width="80" height="80"  media="(min-width: 992px)">
+                                                                                            <img src="img/modal-sucсess.svg" width="40" height="auto" alt="">
+                                                                                        </picture>  
+                                                                                        <p class="font-rr-26 text-center green mt-3">Заявка отправлена!</p>
+                                                                                        <p class="font-rr-14 text-center">Пожалуйста ожидайте наш звонок</p>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>   
+                                                            </form>
+                                                            <p class="font-mm-10 text-center mt-3 mb-0"> Нажимая на кнопку вы даёте согласие на <a href="#" class="green-link">обработку персональных данных</a></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div> 
                                         </div> 
                                         <div class="col-4 col-md-4 order-md-3">
                                             <img class="feature__img feature__img--3" src="img/change-project.png" width="70" height="auto" alt="">  
