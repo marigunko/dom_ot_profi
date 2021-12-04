@@ -290,42 +290,20 @@ label {
     margin: 1.2rem;
 }
 
-.filter__modal .modal-dialog  {
-    max-width: 90%;
-    margin: auto;
-}
-
-.filter__modal--success .modal-dialog  {
-    max-width: 80%;
-    margin: auto;
-}
-
-@media (min-width: 576px) {
-    .filter__modal .modal-dialog  {
-        max-width: 90%;
-        margin: auto;
-    }
-
-    .filter__modal--success .modal-dialog  {
-        max-width: 50%;
-        margin: auto;
-    }
-}
-
-@media (min-width: 1200px) {
-    .filter__modal .modal-dialog  {
-        max-width: 1100px;
-    }
-
-    .filter__modal--success .modal-dialog  {
-        max-width: 500px;
-        margin: auto;
-    }
-}
-
 .filter__modal .modal-content {
-    border-top: 12px solid #FFEFB2;
     border-radius: 8px;
+    position: relative;
+}
+
+.filter__modal .modal-body:before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 20px;
+    height: 10px;
+    width: calc(100% - 40px);
+    background-color: #FFEFB2;
+    border-radius: 8px 8px 0 0;
 }
 
 .breadcrumb-item.active {

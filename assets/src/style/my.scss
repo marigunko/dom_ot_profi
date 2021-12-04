@@ -26,22 +26,15 @@ body {
     overflow-x: hidden;
 }
 
+a {
+    color: #1A9F29;
+}
+
 a:active,
 a:hover,
 a:focus {
-    color: inherit;
+    color: #1A9F29;
     text-decoration: none;
-}
-
-.green-link {
-    color: #1A9F29;
-}
-
-.green-link:active,
-.green-link:hover,
-.green-link:focus {
-    color: #1A9F29;
-    text-decoration: underline;
 }
 
 ul {
