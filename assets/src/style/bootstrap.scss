@@ -64,6 +64,12 @@ p .btn-warning:active {
     border: 1px solid #F7CE34;
 }
 
+.feature__block:hover > .feature__btn {
+    color: #212529;
+    background: #F7CE34;
+    border: 1px solid #F7CE34; 
+}
+
 .btn-outline-warning:active {
     color: #212529;
     background: #F7CE34;

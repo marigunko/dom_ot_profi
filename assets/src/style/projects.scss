@@ -47,31 +47,45 @@
     }
 }
 
-.feature__img {
+.feature__block {
     position: relative;
+}
+
+.feature__img {
+    position: absolute;
     z-index: 1;
-    right: 4rem;
+    left: 10.5rem;
+    top: 0;
+}
+
+.feature__btn {
+    padding: 0.8rem 2.5rem;
 }
 
 @media (min-width: 768px) {
     .feature__img {
-        width: 130px;
-        height: auto;
+        position: relative;
+        height: 100px;
+        width: auto;
         top: 1rem;
         left: 50%;
         transform: translateX(-50%);
     }
 
     .feature__img--1 {
-        top: 1rem;
+        top: 0.5rem;
     }
 
     .feature__img--2 {
-        top: 1.5rem;
+        top: 1rem;
     }
 
     .feature__img--3 {
-        top: 2rem;
+        top: 1.5rem;
+    }
+
+    .feature__btn {
+        padding: 0.8rem 1rem;
     }
 }
 
