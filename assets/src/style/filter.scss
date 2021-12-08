@@ -12,10 +12,11 @@
 }
 
 .filter__form--btn {
-    position: relative;
-    bottom: 1rem;
+    position: absolute;
+    bottom: -1rem;
     left: 50%;
     transform: translate(-50%, 0);
+    z-index: 1;
 }
 
 .range {

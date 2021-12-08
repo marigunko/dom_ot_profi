@@ -23,7 +23,7 @@
 @font-face {
     font-family: "Montserrat-SemiBold";
     font-weight: 600;
-    font-style: bold;
+    font-style: normal;
 
     src: local("Montserrat-SemiBold"),
     url("../fonts/Montserrat-SemiBold.woff") format("woff"),
@@ -33,7 +33,7 @@
 @font-face {
     font-family: "Montserrat-Bold";
     font-weight: 700;
-    font-style: bold;
+    font-style: normal;
 
     src: local("Montserrat-Bold"),
     url("../fonts/Montserrat-Bold.woff") format("woff"),
@@ -63,7 +63,7 @@
 @font-face {
     font-family: "Roboto-Black";
     font-weight: 900;
-    font-style: bold;
+    font-style: normal;
 
     src: local("Roboto-Black"),
     url("../fonts/Roboto-Black.woff") format("woff"),
@@ -152,7 +152,7 @@
 .active .font-mr-20 {
     font-family: "Montserrat-SemiBold";
     font-weight: 600;
-    font-style: bold;
+    font-style: normal;
     font-size: 1.25rem;
     line-height: 1.5rem;
 }
@@ -169,7 +169,7 @@
     .active .font-mr-20 {
         font-family: "Montserrat-SemiBold";
         font-weight: 600;
-        font-style: bold;
+        font-style: normal;
         font-size: 0.875rem;
         line-height: 1.125rem;
     }
@@ -231,6 +231,24 @@
     line-height: 1.55rem;
 }
 
+.font-mm-24 {
+    font-family: "Montserrat-Medium";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+}
+
+@media (max-width: 991.98px) {
+    .font-mm-24 {
+        font-family: "Montserrat-Medium";
+        font-weight: 500;
+        font-style: normal;
+        font-size: 0.875rem;
+        line-height: 1.125rem;
+    }
+}
+
 .font-msb-10 {
     font-family: "Montserrat-SemiBold";
     font-weight: 600;
@@ -258,7 +276,7 @@
 .font-mb-100 {
     font-family: "Montserrat-Bold";
     font-weight: 700;
-    font-style: bold;
+    font-style: normal;
     font-size: 6.25rem;
     line-height: 6.25rem;
 }
@@ -266,7 +284,7 @@
 .font-rr-14 {
     font-family: "Roboto-Regular";
     font-weight: 400;
-    font-style: bold;
+    font-style: normal;
     font-size: 0.875rem;
     line-height: 1.125rem;
 }
@@ -274,7 +292,7 @@
 .font-rr-26 {
     font-family: "Roboto-Regular";
     font-weight: 400;
-    font-style: bold;
+    font-style: normal;
     font-size: 1.625rem;
     line-height: 1.75rem;
 }
@@ -283,7 +301,7 @@
     .font-rr-26 {
         font-family: "Roboto-Regular";
         font-weight: 400;
-        font-style: bold;
+        font-style: normal;
         font-size: 0.75rem;
         line-height: 0.875rem;
     }
@@ -292,7 +310,7 @@
 .font-rr-30 {
     font-family: "Roboto-Medium";
     font-weight: 500;
-    font-style: bold;
+    font-style: normal;
     font-size: 1.875rem;
     line-height: 2rem;
 }
@@ -301,7 +319,7 @@
     .font-rr-30 {
         font-family: "Roboto-Medium";
         font-weight: 500;
-        font-style: bold;
+        font-style: normal;
         font-size: 0.813rem;
         line-height: 0.938rem;
     }
@@ -310,7 +328,7 @@
 .font-rb-14 {
     font-family: "Roboto-Black";
     font-weight: 900;
-    font-style: bold;
+    font-style: normal;
     font-size: 0.875rem;
     line-height: 1.125rem;
 }
@@ -318,7 +336,7 @@
 .font-rb-22 {
     font-family: "Roboto-Black";
     font-weight: 900;
-    font-style: bold;
+    font-style: normal;
     font-size: 1.375rem;
     line-height: 1.625rem;
 }
