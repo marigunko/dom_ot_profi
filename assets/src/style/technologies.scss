@@ -6,11 +6,28 @@
 
 .technologies__form {
     max-width: 900px;
+    position: relative;
+    margin-top: 50px;
+}
+
+.technologies__form--img-mobile {
+    position: absolute;
+    top: -100px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.technologies__form--btn {
+    position: relative;
+    bottom: -1.25rem;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 
 .technologies__card--form {
     width: 300px;
     z-index: 2;
+    margin-top: 3.3rem;
 }
 
 .technologies__card--body {
@@ -19,12 +36,20 @@
 }
 
 @media (min-width: 768px) {
+    .technologies__form {
+        margin-top: 30px;
+    }
+
     .technologies__card--form {
         width: 400px;
     }
 }
 
 @media (min-width: 992px) {
+    .technologies__form {
+        margin-top: 0;
+    }
+
     .technologies__form--img-desktop {
         position: absolute;
         left: 2rem;
@@ -51,12 +76,12 @@
     }
 
     .technologies__form--img {
-        width: 500px;
+        width: 450px;
         height: auto;
     }
 
     .technologies__form--img-block {
-        width: 500px;
+        width: 450px;
         height: auto;
         right: -3rem;
         top: 2rem;
@@ -64,8 +89,8 @@
 
     .technologies__form--img-desktop {
         position: absolute;
-        left: -6rem;
-        top: -5rem;
+        left: -4rem;
+        top: -3.5rem;
     }
     
     .technologies__card--form {
@@ -77,6 +102,7 @@
 @media (min-width: 1800px) {
     .technologies__form {
         max-width: 1500px;
+        margin-top: 100px;
     }
 
     .technologies__form--img {
@@ -91,14 +117,12 @@
 
     .technologies__form--img-desktop {
         position: absolute;
-        left: 4rem;
-        top: -2.8rem;
+        left: 2rem;
+        top: -6rem;
     }
     
     .technologies__card--form {
         width: 500px;
-        padding-top: 50px;
-    
     }
 }
 
@@ -1188,23 +1212,4 @@
     .technologies__item--28 {
         margin-top: 57px;
     }
-}
-
-.technologies__form {
-    position: relative;
-    margin-top: 50px;
-}
-
-.technologies__form--img-mobile {
-    position: absolute;
-    top: -100px;
-    left: 50%;
-    transform: translate(-50%, 0);
-}
-
-.technologies__form--btn {
-    position: relative;
-    bottom: -1.25rem;
-    left: 50%;
-    transform: translate(-50%, 0);
 }
