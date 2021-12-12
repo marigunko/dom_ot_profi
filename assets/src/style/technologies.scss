@@ -52,15 +52,15 @@
 
     .technologies__form--img-desktop {
         position: absolute;
-        left: 2rem;
-        top: 4.1rem;
+        left: 30px;
+        bottom: -70px;
         z-index: 1;
     }
 
     .technologies__form--img-block {
         position: absolute;
-        right: 4rem;
-        top: 5rem;
+        right: 60px;
+        bottom: -60px;
         z-index: 1;
     }
     
@@ -83,14 +83,14 @@
     .technologies__form--img-block {
         width: 450px;
         height: auto;
-        right: -3rem;
-        top: 2rem;
+        right: -20px;
+        bottom: -150px;
     }
 
     .technologies__form--img-desktop {
         position: absolute;
-        left: -4rem;
-        top: -3.5rem;
+        left: -50px;
+        bottom: -100px;
     }
     
     .technologies__card--form {
@@ -101,7 +101,7 @@
 
 @media (min-width: 1800px) {
     .technologies__form {
-        max-width: 1500px;
+        max-width: 1300px;
         margin-top: 100px;
     }
 
@@ -111,14 +111,14 @@
     }
 
     .technologies__form--img-block {
-        right: 3rem;
-        top: 2rem;
+        right: 60px;
+        bottom: -150px;
     }
 
     .technologies__form--img-desktop {
         position: absolute;
-        left: 2rem;
-        top: -6rem;
+        left: 30px;
+        bottom: -100px;
     }
     
     .technologies__card--form {
