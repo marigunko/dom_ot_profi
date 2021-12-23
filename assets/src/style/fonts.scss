@@ -78,6 +78,35 @@
     line-height: 0.875rem;
 }
 
+@media (min-width: 768px) {
+    .technologies__card .font-mr-10 {
+        font-family: "Montserrat-Regular";
+        font-weight: 400;
+        font-style: normal;
+        font-size: 0.875rem;
+        line-height: 1.125rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .technologies__card .font-mr-10 {
+        font-family: "Montserrat-Regular";
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1rem;
+        line-height: 1.25rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .technologies__card .font-mr-10 {
+        font-family: "Montserrat-Regular";
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+    }
+}
 
 .font-mr-14 {
     font-family: "Montserrat-Regular";
