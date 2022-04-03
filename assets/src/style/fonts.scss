@@ -212,6 +212,15 @@
     line-height: 2.125rem;
 }
 
+.font-mr-50 {
+    font-family: "Montserrat-Regular";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+}
+
+
 .font-mm-9 {
     font-family: "Montserrat-Medium";
     font-weight: 500;
@@ -241,7 +250,7 @@
     font-weight: 500;
     font-style: normal;
     font-size: 0.875rem;
-    line-height: 1.125rem;
+    line-height: 1.5rem;
 }
 
 .font-mm-16 {
@@ -249,7 +258,17 @@
     font-weight: 500;
     font-style: normal;
     font-size: 1rem;
-    line-height: 1.25rem;
+    line-height: 1.75rem;
+}
+
+@media (max-width: 991.98px) {
+    .font-mm-16 {
+        font-family: "Montserrat-Medium";
+        font-weight: 500;
+        font-style: normal;
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
 }
 
 .font-mm-22 {
